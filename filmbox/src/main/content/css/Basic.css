@@ -14,11 +14,13 @@
 
 .basicFooter {
 	background-color: #222;
-	height: 100px;
+	height: 70px;
 	right: 0;
 	left: 0;
 	bottom: 0;
 	position: absolute;
+	text-align: center;
+	padding-top: .7em;
 }
 
 nav {
@@ -65,4 +67,11 @@ nav li a:hover:not(.active) {
 	color: #fff;
 }
 
-.socialMedia_Footer {}
+.socialMedia_Footer img {
+	height: 25px;
+	width: 25px;
+}
+
+.socialMedia_Footer {
+	padding: 0;
+}
