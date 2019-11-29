@@ -1,0 +1,66 @@
+/* 
+1.set in every page the color of:
+ -Background
+ -Footer
+ -header
+2. set styleSheet of the Navigationbar
+*/
+
+
+.basicBody {
+	background-color: #F3F3F0;
+	font-family: Oxygen;
+}
+
+.basicFooter {
+	background-color: #222;
+	height: 100px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+nav {
+	position: absolute;
+	right: 0;
+	left: 0;
+	Top: 0;
+	background-color: #333;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 10;
+	overflow: hidden;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	background-color: #222;
+}
+
+.active {
+	background-color: #FF8868;
+}
+
+.copyRights {
+	color: rgba(255, 255, 255, 0.6);
+	text-align: center;
+}
+
+#owner {
+	color: #fff;
+}
