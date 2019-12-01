@@ -6,35 +6,28 @@
 2. set styleSheet of the Navigationbar
 */
 
-.basicBody {
+Body {
 	background-color: #F3F3F0;
 	font-family: 'Oxygen', sans-serif;
 }
 
-.basicFooter {
-	background-color: #222;
-	height: 70px;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	position: absolute;
-	text-align: center;
-	padding-top: .7em;
+header {
+	background-color: #333;
 }
 
 nav {
+	background-color: #333;
 	position: absolute;
 	right: 0;
 	left: 0;
 	Top: 0;
 	align-content: flex-end;
-	background-color: #333;
 }
 
 nav ul {
 	list-style-type: none;
 	margin: 0;
-	padding: 10;
+	padding: 0 10 0 0;
 	overflow: hidden;
 }
 
@@ -46,7 +39,7 @@ nav li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	padding: 22px;
 	text-decoration: none;
 }
 
@@ -56,6 +49,31 @@ nav li a:hover:not(.active) {
 
 .active {
 	background-color: #FF8868;
+}
+
+.logo {
+	display: block;
+	width: 100px;
+	height: 60px;
+	padding: 0px;
+	background-image: url(/resources/icons/filmboxLogo.svg);
+	margin: 0;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+
+}
+
+.basicFooter {
+	background-color: #222;
+	height: 70px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	position: absolute;
+	text-align: center;
+	padding-top: .7em;
 }
 
 .copyRights {
