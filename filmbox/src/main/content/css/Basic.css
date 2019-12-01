@@ -6,10 +6,9 @@
 2. set styleSheet of the Navigationbar
 */
 
-
 .basicBody {
 	background-color: #F3F3F0;
-	font-family: Oxygen;
+	font-family: 'Oxygen', sans-serif;
 }
 
 .basicFooter {
@@ -28,6 +27,7 @@ nav {
 	right: 0;
 	left: 0;
 	Top: 0;
+	align-content: flex-end;
 	background-color: #333;
 }
 
