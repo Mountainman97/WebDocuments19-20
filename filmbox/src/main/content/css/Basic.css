@@ -56,7 +56,7 @@ nav li a:hover:not(.active) {
 	width: 100px;
 	height: 60px;
 	padding: 0px;
-	background-image: url(/resources/icons/filmboxLogo.svg);
+	background-image: url(/resources/filmboxLogo.svg);
 	margin: 0;
 	text-decoration: none;
 	background-repeat: no-repeat;
