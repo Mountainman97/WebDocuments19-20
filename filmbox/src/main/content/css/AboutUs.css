@@ -34,7 +34,7 @@ AboutUStitle {
 }
 
 .AboutUS panner {
-	padding: 130px;
+	padding-top: 130px;
 	color: white;
 	font-style: italic;
 
@@ -47,7 +47,10 @@ AboutUStitle {
 }
 
 .AboutUsContainer {
-	padding: 40px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
 	background-color: #F3F3F0;
 }
 
@@ -56,6 +59,7 @@ p {
 }
 
 .reviewImg {
-	height: 450px;
-	width: 450px;
+	height: 30%;
+	width: 30%;
+	max-width: 100%
 }
