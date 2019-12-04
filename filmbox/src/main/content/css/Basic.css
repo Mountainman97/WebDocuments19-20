@@ -71,7 +71,7 @@ nav li a:hover:not(.active) {
 	right: 0;
 	left: 0;
 	bottom: 0;
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	padding-top: .7em;
 }
