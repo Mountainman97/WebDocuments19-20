@@ -10,14 +10,27 @@ body {
 	left: 0;
 	right: 0;
 	background-color: #FF8868;
-	font-size: larger;
+	font-size: normal;
+	color: #333;
 
+}
+
+.AboutUspanner p {
+	color: white;
+}
+
+Uberschrift {
+	font-size: larger;
+	font-style: italic;
+	font-size: XX-large;
+	color: #333;
 }
 
 AboutUStitle {
 	font-size: larger;
 	font-style: italic;
-	color: #333;
+	font-size: XX-large;
+	color: #FF8868;
 }
 
 .AboutUS panner {
@@ -38,4 +51,11 @@ AboutUStitle {
 	background-color: #F3F3F0;
 }
 
-.AboutUsContainer titel {}
+p {
+	color: black;
+}
+
+.reviewImg {
+	height: 450px;
+	width: 450px;
+}
