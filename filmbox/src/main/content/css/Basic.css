@@ -17,36 +17,28 @@ header {
 
 nav {
 	background-color: #333;
-	position: absolute;
-	Top: 0%;
-	left: 0%;
-	right: 0%;
-	line-height: 100%;
-	align-content: flex-end;
 	overflow: hidden;
-	width: 100%;
+	margin: 0%;
 }
 
 nav ul {
 	list-style-type: none;
-	margin: 0%;
-	padding: 0 10 0 0;
+	padding: 0 2 0 0;
 	overflow: hidden;
+	margin: 0%;
 }
 
 nav li {
 	float: left;
+	margin: 0%;
 }
 
 nav li a {
-	padding: 1.25em;
-	height: 1.3em;
+	padding: 1.5em;
+	height: 1.0em;
 	display: inline-block;
 	color: white;
 	text-align: center;
-	padding: auto;
-
-
 	text-decoration: none;
 }
 
@@ -61,7 +53,7 @@ nav li a:hover:not(.active) {
 .logo {
 	display: block;
 	width: 100px;
-	height: 60px;
+	height: 7%;
 	padding: 0%;
 	margin: 0%;
 	text-decoration: none;
@@ -71,7 +63,12 @@ nav li a:hover:not(.active) {
 
 }
 
+/*
+Footer
+*/
+
 .basicFooter {
+	margin-top: 1%;
 	background-color: #222;
 	height: 8%;
 	right: 0%;
@@ -100,4 +97,25 @@ nav li a:hover:not(.active) {
 
 .socialMedia_Footer {
 	padding: 0%;
+}
+
+
+/*
+Orange Panner under the nav (See about us
+*/
+
+.OrangePanner {
+	padding: 2%;
+	text-align: center;
+	display: block;
+	background-color: #FF8868;
+	font-size: normal;
+	color: #333;
+	font-style: italic;
+	position: relative;
+	height: auto;
+}
+
+.OrangePanner p {
+	color: white;
 }
