@@ -12,6 +12,10 @@ body {
 }
 
 header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
 	background-color: #333;
 }
 
@@ -54,10 +58,23 @@ nav li a:hover:not(.active) {
 	background-color: #222;
 }
 
-.active {
+nav li .active {
 	background-color: #FF8868;
+
 }
 
+main {
+	position: fixed;
+	top: 5em;
+	right: 0em;
+	left: 0;
+	width: 100%;
+}
+
+.mainpage {
+	text-align: center;
+	background: red;
+}
 .logo {
 	display: block;
 	width: 100px;
