@@ -11,6 +11,7 @@ body {
 	background-color: #F3F3F0;
 	font-family: 'Oxygen', sans-serif;
 	padding: 0%;
+	color: #222;
 	display: flex;
 	flex-direction: column;
 }
@@ -72,10 +73,11 @@ Footer
 .basicFooter {
 	margin-top: 1%;
 	background-color: #222;
+	width: 100%;
 	height: 8%;
-	right: 0%;
-	left: 0%;
-	bottom: 0%;
+	right: 0;
+	left: 0;
+	bottom: 0;
 	position: fixed;
 	text-align: center;
 	padding-top: 1%;
