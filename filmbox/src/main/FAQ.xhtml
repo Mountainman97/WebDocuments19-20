@@ -7,22 +7,57 @@
 	<!--CSS-->
 	<!-- for Navigationbar -->
 	<link rel="stylesheet" href="content/css/Basic.css" />
+	<link rel="stylesheet" href="content/css/FAQ.css" />
+	<script src="/content/javascript/Collabse.js"></script>
 </head>
-<header>
-	<nav>
-		<ul id="NavList">
-			<li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
-			<li><a href="Home.xhtml">Home</a></li>
-			<li><a href="MovieNow.xhtml">Movies</a></li>
-			<li><a href="Announce.xhtml">Announcment</a></li>
-			<li><a href="AboutUs.xhtml">About</a></li>
-			<li><a href="ContactUs.xhtml">Contact</a></li>
-			<li><a class="active" href="FAQ.xhtml">FAQ</a></li>
-		</ul>
-	</nav>
-</header>
 
 <body>
+	<header>
+		<nav>
+			<ul id="NavList">
+				<li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
+				<li><a href="Home.xhtml">Home</a></li>
+				<li><a href="MovieNow.xhtml">Movies</a></li>
+				<li><a href="Announce.xhtml">Announcment</a></li>
+				<li><a href="AboutUs.xhtml">About</a></li>
+				<li><a href="ContactUs.xhtml">Contact</a></li>
+				<li><a class="active" href="FAQ.xhtml">FAQ</a></li>
+			</ul>
+		</nav>
+		<div class="OrangePanner">
+			<h2>Top asked Questions</h2>
+			<p>for more questions please contact our Team</p>
+		</div>
+	</header>
+	<div>
+		<div onclick="showOnClick('Q1')" class="frage">
+			<p>1. Do I habe to bay a monthly fee to join the Club?</p>
+		</div>
+		<div class="antwort" id="Q1">
+			<p>Answer: No, but if you want to give us support and help maybe consider a Donation.</p>
+		</div>
+		<div onclick="showOnClick('Q2')" class="frage">
+			<p>2. Is there any Meetings for the Club?</p>
+		</div>
+		<div class="antwort" id="Q2">
+			<p>Answer: Sure, The club meets each Week on friday and we watch movies see our recent announcements
+				<a href="/Announce.xhtml">hier</a>. There You can See our meetings and our activities that we do with our members.</p>
+		</div>
+		<div onclick="showOnClick('Q3')" class="frage">
+			<p>3. where is the FilmClub home town?</p>
+		</div>
+		<div class="antwort" id="Q3">
+			<p>Answer: In Cottbus, Germany. Read more about us <a href="AboutUs.xhtml">hier</a>.</p>
+		</div>
+		<div onclick="showOnClick('Q4')" class="frage">
+			<p>4. What positive Reviews have The FilmClub ?</p>
+		</div>
+		<div class="antwort" id="Q4">
+			<p>Answer: There are many famouse people and stars that gave so much of support to our Grupp!</p>
+		</div>
+
+
+	</div>
 
 	<footer class="basicFooter">
 		<div class="socialMedia_Footer">
