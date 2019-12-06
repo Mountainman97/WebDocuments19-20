@@ -90,11 +90,6 @@
     padding-bottom: 1%;
 }
 
-.movie a :hover {
-    width: 500px;
-	height: auto;
-}
-
 .movie {
 	display: block;
 	width: 200px;

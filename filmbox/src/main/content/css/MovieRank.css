@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.ever {
+    display: flex;
+    flex-direction: column;
+    color: #222;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+    background: #777;
+}
+
+.header {
+    color: #FF8868;
+    text-shadow:
+    0 1px 0 hsl(15,40%,60%),
+    0 1px 0 hsl(15,40%,58%),
+    0 3px 0 hsl(15,40%,56%),
+    0 4px 0 hsl(15,40%,54%),
+    0 5px 0 hsl(15,40%,52%),
+    0 6px 1px hsl(15,40%,50%),
+    0 0 5px hsl(15,20%,60%),
+    0 1px 3px hsl(15,20%,58%),
+    0 3px 5px hsl(15,20%,56%),
+    0 5px 10px hsl(15,20%,54%),
+    0 10px 10px hsl(15,20%,52%),
+    0 15px 15px hsl(15,20%,50%);
+}
+
+.month {
+    display: flex;
+    flex-direction: column;
+    color: #222;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2%;
+    background: #777;
+}
+
+.thumb {
+	display: block;
+	width: 200px;
+	height: auto;
+    padding: 0%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+	margin-left: 0%;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+    background-size: cover;
+}
+
+.movie {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    padding-left: 5%;
+}
+
+.text h3 {
+    font-size: 1.5rem;
+}
+
+.text p {
+    font-size: 1.3rem;
+    width: 300px
+}
