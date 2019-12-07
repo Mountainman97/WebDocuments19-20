@@ -8,9 +8,10 @@
 	<!-- for Navigationbar -->
 	<link rel="stylesheet" href="content/css/Announcment.css" />
 	<link rel="stylesheet" href="content/css/Basic.css" />
+	<script src="content/javascript/Announcment.js"></script>
 </head>
 
-<body>
+<body onload="testFunction()">
 	<header>
 		<nav>
 			<ul id="NavList">
@@ -32,27 +33,55 @@
 	</header>
 
 	<main class="container">
+		<div id="xmlDataContainer"></div>
 		<div class="classContainer">
 			<h1 id="overhead">General Information</h1>
 			<div class="information">
-				<p>General</p>
-				<p>General</p>
-				<p>General</p>
-				<p>General</p>
 				<div class="news">
-					<p class="title"><strong>Information Name</strong></p>
-					<p class="time">Informationszeit</p>
-					<p class="text">Information Text kv ab aisfulbv iusalafzbv alfbv lavbzlad vakuv lbadhlvbjkfvbaldjvb  adlhf vlaf bv la</p>
+					<p class="title">Title</p>
+					<p class="time">Time</p>
+					<p class="text">Text</p>
+				</div>
+				<div class="news">
+					<p class="title">Title</p>
+					<p class="time">Time</p>
+					<p class="text">Text</p>
+				</div>
+				<div class="news">
+					<p class="title">Title</p>
+					<p class="time">Time</p>
+					<p class="text">Text</p>
+				</div>
+				<div class="news">
+					<p class="title">Title</p>
+					<p class="time">Time</p>
+					<p class="text">Text</p>
 				</div>
 			</div>
 		</div>
 		<div class="classContainer">
 			<h1 id="overhead">Meeting Information</h1>
 			<div class="information">
-				<p>Meetings</p>
-				<p>Meetings</p>
-				<p>Meetings</p>
-				<p>Meetings</p>
+				<div class="news">
+					<p class="title">Title</p>
+					<p class="time">Time</p>
+					<p class="text">Text</p>
+				</div>
+				<div class="news">
+					<p class="title">Title</p>
+					<p class="time">Time</p>
+					<p class="text">Text</p>
+				</div>
+				<div class="news">
+					<p class="title">Title</p>
+					<p class="time">Time</p>
+					<p class="text">Text</p>
+				</div>
+				<div class="news">
+					<p class="title" id="test">Title</p>
+					<p class="time">Time</p>
+					<p class="text">Text</p>
+				</div>
 			</div>
 		</div>
 	</main>

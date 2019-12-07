@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<library>
+    <Movie id="1">
+        <title>Star Wars 8</title>
+        <authors>J.J. Abrams</authors>
+    </Movie>
+
+    <Movie id="2">
+        <title>Star Wars 9</title>
+        <authors>J.J. Abrams</authors>
+    </Movie>
+
+</library>
