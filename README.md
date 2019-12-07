@@ -17,5 +17,5 @@
 - FAQ
 
 ### Notation
-All the work and commits have been done on the develop Branch and we pushed a final version at the End to the master Branch.
-Please Consider checking our step by step work on the develop Branch. 
+All the work and commits have been done on the Other Branchs and we pushed a final version at the End to the master Branch.
+Please Consider checking our step by step work on on the Other Branchs. 
