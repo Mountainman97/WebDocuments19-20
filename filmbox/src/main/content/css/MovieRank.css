@@ -31,16 +31,16 @@ main {
 }
 
 .thumb {
-	display: block;
-	width: 200px;
-	height: auto;
+    display: block;
+    width: 200px;
+    height: auto;
     padding: 0%;
     padding-top: 1%;
     padding-bottom: 3%;
-	margin-left: 0%;
-	text-decoration: none;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+    margin-left: 0%;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     background-size: cover;
 }
 

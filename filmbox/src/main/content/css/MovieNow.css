@@ -79,23 +79,22 @@
 }
 
 .movie {
-	display: block;
-	width: 200px;
-	height: auto;
+    display: block;
+    width: 200px;
+    height: auto;
     padding: 0%;
     padding-top: 1%;
     padding-bottom: 1%;
-	margin-left: 0%;
-	text-decoration: none;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
+    margin-left: 0%;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
     background-size: cover;
 }
 
 .rankingHead a {
     text-decoration: none;
     color: #FF8868;
-    
 }
 
 #head a {
