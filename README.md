@@ -12,5 +12,5 @@
 ### Badr Aldin Alzein:
 - Header | Footer | Navigation
 - About Us
-- Contact
+- Contact US
 - FAQ
