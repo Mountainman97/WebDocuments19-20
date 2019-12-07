@@ -1,4 +1,17 @@
-# FilmBox
+# WebDocuments19-20
 
-#Beispiel Webseite von FilmBox mit den entsprechenden Farbenanforderungen (aber nav muss dark gray sein): 
-http://www.carolrivello.com/
+## Splitting of Tasks
+
+### Max Bergmann:
+- Main Page Content
+- Movie Pages
+  - Movie Now
+  - Movie Rank
+  - Movie Upcomming
+- Anouncment Page
+
+### Badr Aldin Alzein:
+- Header | Footer | Navigation
+- About Us
+- Contact US
+- FAQ
