@@ -1,5 +1,6 @@
 .container {
     margin-top: 3%;
+    margin-bottom: 3%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -10,7 +11,7 @@
 .classContainer {
     display: grid;
     grid-template-rows: auto auto;
-    background: #777;
+    background: rgb(195, 195, 195);
     margin-right: 3%;
     margin-left: 3%;
     width: 30%;
@@ -19,12 +20,11 @@
 #overhead {
     grid-row: 1/2;
     color: #FF8868;
-    background: #777;
     text-align: center;
+    text-shadow: 2px 2px 1px #222;
 }
 
 .information {
-    background: #777;
     grid-row: 2/3;
     padding-left: 4%;
     padding-right: 4%;
@@ -52,6 +52,10 @@
 .news .text {
     grid-row: 2/3;
     grid-column: 1/3;
-    margin-top: 2%;
+    margin-top: 5%;
     padding-left: 5%;
+}
+
+a {
+    color: #FF8868;
 }

@@ -13,11 +13,12 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 2%;
-    background: #777;
+    background: rgb(195, 195, 195);
 }
 
 .header {
     color: #FF8868;
+    text-shadow: 2px 2px 1px #222;
 }
 
 .month {
@@ -27,7 +28,7 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 2%;
-    background: #777;
+    background: rgb(195, 195, 195);
 }
 
 .thumb {

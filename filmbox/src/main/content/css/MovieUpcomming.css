@@ -1,12 +1,12 @@
 main {
-    background: #777;
+    background: rgb(195, 195, 195);
     margin-top: 3%;
 }
 
 main h1 {
     color: #FF8868;
     text-align: center;
-    text-shadow:
+    text-shadow: 2px 2px 1px #222;
 }
 
 .soon {
