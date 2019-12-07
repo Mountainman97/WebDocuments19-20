@@ -7,100 +7,115 @@
 */
 
 body {
-	margin: 0;
-	background-color: #F3F3F0;
-	font-family: 'Oxygen', sans-serif;
-	padding: 0%;
-	color: #222;
-	display: flex;
-	flex-direction: column;
+    margin: 0;
+    background-color: #F3F3F0;
+    font-family: 'Oxygen', sans-serif;
+    padding: 0%;
+    color: #222;
+    display: flex;
+    flex-direction: column;
 }
-
 
 nav {
-	background-color: #333;
-	overflow: hidden;
+    background-color: #333;
+    overflow: hidden;
 }
 
-
 nav ul {
-	list-style-type: none;
-	padding: 0 2 0 0;
-	overflow: hidden;
-	margin: 0%;
+    list-style-type: none;
+    padding: 0 2 0 0;
+    overflow: hidden;
+    margin: 0%;
 }
 
 nav li {
-	float: left;
-	margin: 0%;
+    float: left;
+    margin: 0%;
 }
 
 nav li a {
-	padding: 1.5em;
-	height: 1.0em;
-	display: inline-block;
-	color: white;
-	text-align: center;
-	text-decoration: none;
+    padding: 1.5em;
+    height: 1.0em;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
 
 nav li a:hover:not(.active) {
-	background-color: #222;
+    background-color: #222;
 }
 
 nav li .active {
-	background-color: #FF8868;
-
+    background-color: #FF8868;
 }
 
 .logo {
-	display: block;
-	width: 100px;
-	height: 7%;
-	padding: 0%;
-	margin: 0%;
-	text-decoration: none;
-	background-repeat: no-repeat;
-	background-position: 50% 50%;
-	background-size: cover;
-
+    display: block;
+    width: 100px;
+    height: 7%;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
+
+@media only screen and (max-width: 750px) {
+    nav ul {
+        margin: 0px;
+        padding: 20px 0px 0px 0px;
+    }
+    nav ul li {
+        width: 33.3333%;
+    }
+    nav ul li:first-child {
+        width: 100%;
+    }
+    nav ul li:first-child img {
+        margin: auto;
+    }
+    nav li a {
+        padding: 20px 15px 20px 15px;
+    }
+}
+
 
 /*
 Footer
 */
 
 .basicFooter {
-	margin-top: 1%;
-	background-color: #222;
-	width: 100%;
-	height: 8%;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	position: fixed;
-	text-align: center;
-	padding-top: 1%;
-	padding-bottom: 1%;
-
+    margin-top: 1%;
+    background-color: #222;
+    width: 100%;
+    height: 8%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: relative;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .copyRights {
-	color: rgba(255, 255, 255, 0.6);
-	text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
 }
 
 #owner {
-	color: #fff;
+    color: #fff;
 }
 
 .socialMedia_Footer img {
-	height: 2%;
-	width: 2%;
+    height: 2%;
+    width: 2%;
 }
 
 .socialMedia_Footer {
-	padding: 0%;
+    padding: 0%;
 }
 
 
@@ -109,18 +124,18 @@ Orange Panner under the nav (See about us
 */
 
 .OrangePanner {
-	padding: 2%;
-	text-align: center;
-	display: block;
-	background-color: #FF8868;
-	font-size: normal;
-	color: #333;
-	font-style: italic;
-	position: relative;
-	height: auto;
-	z-index: 5;
+    padding: 2%;
+    text-align: center;
+    display: block;
+    background-color: #FF8868;
+    font-size: normal;
+    color: #333;
+    font-style: italic;
+    position: relative;
+    height: auto;
+    z-index: 5;
 }
 
 .OrangePanner p {
-	color: white;
+    color: white;
 }
