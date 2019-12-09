@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <title>Home</title>
+    <!--CSS-->
+    <!-- for Navigationbar -->
+    <link rel="stylesheet" href="content/css/Basic.css" />
+    <link rel="stylesheet" href="content/css/Basic.css" />
+    <link rel="stylesheet" href="content/css/Home2.css" />
+    <script src="content/javascript/Slider2.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul id="NavList">
+                <li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
+                <li><a class="active" href="index.xhtml">Home</a></li>
+                <li><a href="MovieNow.xhtml">Movies</a></li>
+                <li><a href="Announce.xhtml">Announcment</a></li>
+                <li><a href="AboutUs.xhtml">About</a></li>
+                <li><a href="ContactUs.xhtml">Contact</a></li>
+                <li><a href="FAQ.xhtml">FAQ</a></li>
+            </ul>
+            <panner class="OrangePanner">
+                <h1 style="font-size: xx-large;">
+                    Welcome
+                </h1>
+            </panner>
+        </nav>
+    </header>
+    
+    <main>
+
+        <h1 class="title">In Theatres</h1>
+        <div class="inTheatres">
+            <a class="prevMovie" onclick="plusSlides(-1)">&#10094;</a>
+
+            <div class="Swiper fade">
+                <img class="movie" src="resources/movies/avatar.jpg" alt="..."/>
+                <div class="description">
+                    <h2>Avatar</h2>
+                    <p>
+                        Dies ist die Filmbeschriebung khlvb fksu öifv sfiufvhuif sö vsfuhv siö
+                    </p>
+                </div>
+            </div>
+
+            <a class="nextMovie" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <div class="wrapper">
+            <div class="recommendedHead" id="head">
+                <a href="MovieRecommend.xhtml">
+                    <h1>Our Most Reommended Movie <a>&#10095;</a></h1>
+                </a>
+            </div>
+
+            <div class="recommended">
+                <div class="recommendedImg" id="down">
+                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/starWars8.jpg" alt="Star Wars 8" /></a>
+                </div>
+                <div class="recommendedText" id="downText">
+                    <h2>Star Wars: The Last Jedi</h2>
+                    <p>
+                        Is a 2017 American epic space-opera film written and directed by Rian Johnson. It is the second installment of the Star Wars sequel trilogy, following The Force Awakens (2015), and the eighth episode of the nine-part "Skywalker saga".
+                        <br/><br/> The Last Jedi follows Rey as she receives Jedi training from Luke Skywalker, in hopes of turning the tide for the Resistance in the fight against Kylo Ren and the First Order, while General Leia Organa, Finn, and Poe
+                        Dameron attempt to escape a First Order attack on the dwindling Resistance fleet.
+                    </p>
+                </div>
+            </div>
+
+            <div class="commingSoonHead" id="head">
+                <a href="MovieUpcoming.xhtml">
+                    <h1>Comming Soon! <a class="next">&#10095;</a></h1>
+                </a>
+            </div>
+
+            <div class="commingSoon">
+                <div class="commingSoonImg" id="down">
+                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/starWars9.jpg" alt="Star Wars 9" /></a>
+                </div>
+                <div class="commingSoonText" id="downText">
+                    <h2>Star Wars: The Rise of Skywalker</h2>
+                    <p>
+                        Is an upcoming American epic space-opera film produced, co-written, and directed by J. J. Abrams. It will be the third installment of the Star Wars sequel trilogy, following The Force Awakens (2015) and The Last Jedi (2017), and the final episode of the
+                        nine-part "Skywalker saga".
+                        <br/><br/> A year after the events of The Last Jedi, the remnants of the Resistance face the First Order once again—while reckoning with the past and their own inner turmoil. Meanwhile, the ancient conflict between the Jedi and
+                        the Sith reaches its climax, bringing the Skywalker saga to a definitive end.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="basicFooter">
+        <div class="socialMedia_Footer">
+
+            <a href="https://www.instagram.com/?hl=de">
+                <img src="resources/icons/icons8-instagram_new.png" alt="instagram" /></a>
+            <a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7">
+                <img src="resources/icons/icons8-marker.png" alt="adress" /></a>
+            <a href="https://de-de.facebook.com/">
+                <img src="resources/icons/icons8-facebook_filled.png" alt="facebook" />
+            </a>
+            <p class="copyRights"> © 2019 Copyright: <a herf="#" id="owner">FilmBox</a></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
