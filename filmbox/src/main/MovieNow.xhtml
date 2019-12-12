@@ -6,6 +6,7 @@
     <title>In Theaters</title>
     <link rel="stylesheet" href="content/css/Basic.css" />
     <link rel="stylesheet" href="content/css/MovieNow.css" />
+    <link rel="stylesheet" href="content/css/Movie.css" />
 </head>
 
 <body>
@@ -22,72 +23,56 @@
             </ul>
             <panner class="OrangePanner">
                 <h1 style="font-size: xx-large;">
-                    Explore the world of movies!
+                    Lookup what's now in Theatres!
                 </h1>
+                <p>
+                    Discover the World of Movies!
+                </p>
             </panner>
         </nav>
     </header>
 
 
     <main>
+
+        <div class="head">
+
+            <div class="popular" id="box">
+                <a href="MovieRank.xhtml"><h2>&#10094; Most Popular Movies </h2></a>
+            </div>
+
+            <div class="recommended" id="box">
+                <a href="MovieRecommend.xhtml"><h2>Our Recommondations &#11014;&#65038;</h2></a>
+            </div>
+
+            <div class="comming" id="box">
+                <a href="MovieUpcoming.xhtml"><h2>Comming Soon &#10095;</h2></a>
+            </div>
+
+        </div>
+
         <div class="inTheatres">
             <h1>In Theatres</h1>
             <div class="movies">
-                <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/adamsfamily.jpg" alt="The Adams Familiy" /></a>
-                <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/Frozen2.jpg" alt="Frozen 2" /></a>
-                <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/interstellar.jpg" alt=" Interstellar" /></a>
-                <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/joker.jpg" alt="Joker" /></a>
-                <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/revenant.jpg" alt="The Revenant" /></a>
+                <div>
+                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/adamsfamily.jpg" alt="adamsfamily"/></a>
+                </div>
+                <div>
+                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/Frozen2.jpg" alt="frozen2"/></a>
+                </div>
+                <div>
+                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/joker.jpg" alt="joker"/></a>
+                </div>
+                <div>
+                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/jumanjiNext.jpg" alt="jumanji"/></a>
+                </div>
+                <div>
+                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="lastchristmas"/></a>
+                </div>
             </div>
         </div>
-        <div class="wrapper">
-            <div class="rankingHead" id="head">
-                <a href="MovieRank.xhtml">
-                    <h1>Most popular Movies <a class="next">&#10095;</a></h1>
-                </a>
-            </div>
 
-            <div class="ranking">
-                <div class="rankingImg" id="down">
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/starWars8.jpg" alt="Star Wars 8" /></a>
-                </div>
-                <div class="rankingText" id="downText">
-                    <h2>Star Wars: The Last Jedi</h2>
-                    <p>
-                        Is a 2017 American epic space-opera film written and directed by Rian Johnson. It is the second installment of the Star Wars sequel trilogy, following The Force Awakens (2015), and the eighth episode of the nine-part "Skywalker saga".
-                        <br/><br/> The Last Jedi follows Rey as she receives Jedi training from Luke Skywalker, in hopes of turning the tide for the Resistance in the fight against Kylo Ren and the First Order, while General Leia Organa, Finn, and Poe
-                        Dameron attempt to escape a First Order attack on the dwindling Resistance fleet.
-                    </p>
-                </div>
-            </div>
-
-            <div class="commingSoonHead" id="head">
-                <a href="MovieUpcoming.xhtml">
-                    <h1>Comming Soon! <a class="next">&#10095;</a></h1>
-                </a>
-            </div>
-
-            <div class="commingSoon">
-                <div class="commingSoonImg" id="down">
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/starWars9.jpg" alt="Star Wars 9" /></a>
-                </div>
-                <div class="commingSoonText" id="downText">
-                    <h2>Star Wars: The Rise of Skywalker</h2>
-                    <p>
-                        Is an upcoming American epic space-opera film produced, co-written, and directed by J. J. Abrams. It will be the third installment of the Star Wars sequel trilogy, following The Force Awakens (2015) and The Last Jedi (2017), and the final episode of the
-                        nine-part "Skywalker saga".
-                        <br/><br/> A year after the events of The Last Jedi, the remnants of the Resistance face the First Order once again—while reckoning with the past and their own inner turmoil. Meanwhile, the ancient conflict between the Jedi and
-                        the Sith reaches its climax, bringing the Skywalker saga to a definitive end.
-                    </p>
-                </div>
-            </div>
-
-        </div>
     </main>
-
-    <div>
-        <br/><br/><br/><br/><br/><br/><br/><br/>
-    </div>
 
     <footer class="basicFooter">
         <div class="socialMedia_Footer">

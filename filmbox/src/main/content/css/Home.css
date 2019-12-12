@@ -1,167 +1,109 @@
-body {
-    background-color: #F3F3F0;
-}
-
 main {
-    background: #F3F3F0;
-    position: relative;
-    top: 2rem;
-    margin-left: 0;
-    margin-right: 0;
-    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    background: #FF8868;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: #222;
-}
-
-.prev {
-    grid-row: 1/2;
-    grid-column: 2/3;
-}
-
-.next {
-    grid-row: 1/2;
-    grid-column: 3/4;
-    text-align: center;
-}
-
-
-/* Fading animation */
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
-
-
-/* ---------------------------------------- 
-   Main Teil Gridlayout mit bestandteilen
-*/
-
-.wrapper {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 0.3fr;
-}
-
-.SliderText {
-    grid-row: 1/2;
-    grid-column: 3/4;
-    padding: 3%;
-    padding-left: 15%;
-    padding-right: 6%;
-}
-
-.SliderImg {
-    grid-row: 1/2;
-    grid-column: 2/3;
-    text-align: right;
-    padding-top: 5%;
-    padding-right: 20%;
-}
+/* Out now Banner */
 
 .theatre {
-    grid-row: 1/2;
-    grid-column: 1/2;
-    padding-right: 10%;
-    padding-left: 10%;
+    margin-bottom: 4%;
+    margin-top: 3%;
+    background: rgb(195, 195, 195);
+}
+
+.outNow {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px #555;
+}
+
+.outNow a{
     text-align: center;
+    color: #FF8868;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #222;
 }
 
-.theatre h3 {
-    font-size: xx-large;
-    background: #FF8868;
-    border-radius: 15px;
+.movieContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;    
+    justify-content: space-around;
+    background: rgb(195, 195, 195);
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-.categorieText1 {
-    grid-row: 2/3;
-    grid-column: 1/2;
-    padding-left: 6%;
+.movieContainer div a {
+    padding-top: 7%;
+    padding-bottom: 2%;
 }
 
-.categorieImg1 {
-    grid-row: 2;
-    grid-column: 2/3;
-    padding-top: 3%;
-    text-align: center;
+.movieContainer div a img {
+    
+    margin-bottom: 5%;
 }
 
-.categorieText2 {
-    grid-row: 2/3;
-    grid-column: 3/4;
-    padding-left: 6%;
+/* Categoriebanner */
+
+.seeAlso {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.categorieImg2 {
-    grid-row: 2;
-    grid-column: 4/5;
-    padding-top: 3%;
-    text-align: center;
+#categorie {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;    
+    background: rgb(195, 195, 195);
+    box-shadow: 6px 5px 10px #555;
 }
 
-.img {
-    max-width: 100%;
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content .img {
+    margin-top: 2%;
+}
+
+.movie {
+    display: block;
+    width: 200px;
     height: auto;
+    padding: 0%;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 5px 5px 10px #222;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
-.back1 {
-    grid-row: 1/2;
-    grid-column: 2/4;
-    background: rgb(195, 195, 195);
-    border-radius: 15px;
+.title a {
+    text-decoration: none;
+    text-align: center;
+    color: #FF8868;
+    text-shadow: 2px 2px 1px #222;
 }
 
-.back2 {
-    grid-row: 2/3;
-    grid-column: 1/3;
-    background: rgb(195, 195, 195);
-    border-radius: 15px;
+.text {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 3%;
 }
 
-.back3 {
-    grid-row: 2/3;
-    grid-column: 3/5;
-    background: rgb(195, 195, 195);
-    border-radius: 15px;
+.text a {
+    text-align: center;
+    text-decoration: none;
+    color: #222;
 }
