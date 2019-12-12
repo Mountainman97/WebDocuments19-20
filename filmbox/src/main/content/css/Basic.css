@@ -50,6 +50,7 @@ nav li .active {
     background-color: #FF8868;
 }
 
+
 /* DropdownMenu */
 
 .dropdown {
@@ -69,7 +70,7 @@ nav li .active {
     background-color: #f9f9f9;
     min-width: 160px;
     margin-top: 25px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     background: #333;
     color: white;
@@ -92,10 +93,14 @@ nav li .active {
     background-size: cover;
 }
 
+
+/**For Mobile */
+
 @media only screen and (max-width: 750px) {
+    /*Nav*/
     nav ul {
         margin: 0px;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
     }
     nav ul li {
         width: 33.3333%;
@@ -108,6 +113,22 @@ nav li .active {
     }
     nav li a {
         padding: 20px 15px 20px 15px;
+    }
+    /*Footer*/
+    .socialMedia_Footer img {
+        height: 19px;
+        width: 20px;
+    }
+    /*logo*/
+    .logo {
+        padding-bottom: 10px;
+    }
+    /*OrangePanner*/
+    .OrangePanner {
+        font-size: small;
+    }
+    .OrangePanner h1 {
+        font-size: large;
     }
 }
 
@@ -126,8 +147,7 @@ Footer
     bottom: 0;
     position: relative;
     text-align: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 10px;
 }
 
 .copyRights {
@@ -140,8 +160,8 @@ Footer
 }
 
 .socialMedia_Footer img {
-    height: 2%;
-    width: 2%;
+    height: 19px;
+    width: 20px;
 }
 
 .socialMedia_Footer {

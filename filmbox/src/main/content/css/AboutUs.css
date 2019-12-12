@@ -1,41 +1,51 @@
-body {
-    background-color: #F3F3F0;
-}
-
-Uberschrift {
-    font-size: larger;
-    font-style: italic;
-    font-size: XX-large;
-    color: #333;
-}
-
-AboutUStitle {
-    font-size: larger;
-    font-style: italic;
-    font-size: XX-large;
-    color: #FF8868;
-}
-
-.AboutUspanner h1 {
-    color: #333;
-    font-size: xx-large;
-}
-
-.AboutUsContainer {
-    font-size: larger;
-    text-align: center;
-    padding-bottom: 19%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 1%;
-}
-
-p {
-    color: black;
-}
-
-.reviewImg {
-    height: 30%;
-    width: 30%;
-    max-width: 100%
-}
+        body {
+            background-color: #F3F3F0;
+        }
+        
+        Uberschrift {
+            font-size: larger;
+            font-style: italic;
+            font-size: XX-large;
+            color: #333;
+        }
+        
+        AboutUStitle {
+            font-size: larger;
+            font-style: italic;
+            font-size: XX-large;
+            color: #FF8868;
+        }
+        
+        .AboutUspanner h1 {
+            color: #333;
+            font-size: xx-large;
+        }
+        
+        .AboutUsContainer {
+            font-size: larger;
+            text-align: center;
+            padding-bottom: 19%;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 1%;
+        }
+        
+        p {
+            color: black;
+        }
+        
+        .reviewImg {
+            height: 30%;
+            width: 30%;
+            max-width: 100%
+        }
+        
+        @media only screen and (max-width: 750px) {
+            .AboutUsContainer {
+                padding-top: 30px;
+            }
+            .reviewImg {
+                height: 99px;
+                width: 200px;
+            }
+        }
