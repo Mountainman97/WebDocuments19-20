@@ -131,6 +131,18 @@ nav li .active {
     .OrangePanner h1 {
         font-size: large;
     }
+    .basicFooter {
+        position: relative;
+    }
+}
+
+
+/**For Iphone 11 */
+
+@media only screen and (device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) {
+    .basicFooter {
+        position: absolute;
+    }
 }
 
 
@@ -145,7 +157,7 @@ Footer
     height: 8%;
     right: 0;
     left: 0;
-    bottom: 0;
+    bottom: 0%;
     position: relative;
     text-align: center;
     padding-top: 10px;
