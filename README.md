@@ -8,6 +8,7 @@
   - Movie Now
   - Movie Rank
   - Movie Upcomming
+  - Movie Info
 - Anouncment Page
 
 ### Badr Aldin Alzein:
