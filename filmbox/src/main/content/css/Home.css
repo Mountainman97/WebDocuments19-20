@@ -1,123 +1,127 @@
-                            main {
-                                display: flex;
-                                flex-direction: column;
-                                flex-wrap: wrap;
-                            }
-                            /* Out now Banner */
-                            
-                            .theatre {
-                                margin-bottom: 4%;
-                                margin-top: 3%;
-                                background: rgb(195, 195, 195);
-                            }
-                            
-                            .outNow {
-                                display: flex;
-                                flex-direction: column;
-                                box-shadow: 0px 5px 10px #555;
-                            }
-                            
-                            .outNow a {
-                                text-align: center;
-                                color: #FF8868;
-                                text-decoration: none;
-                                text-shadow: 2px 2px 1px #222;
-                            }
-                            
-                            .movieContainer {
-                                display: flex;
-                                flex-direction: row;
-                                flex-wrap: wrap;
-                                align-items: center;
-                                justify-content: space-around;
-                                background: rgb(195, 195, 195);
-                                padding-top: 1%;
-                                padding-bottom: 1%;
-                            }
-                            
-                            .movieContainer div a {
-                                padding-top: 7%;
-                                padding-bottom: 2%;
-                            }
-                            
-                            .movieContainer div a img {
-                                margin-bottom: 5%;
-                            }
-                            /* Categoriebanner */
-                            
-                            .seeAlso {
-                                display: flex;
-                                flex-direction: row;
-                                flex-wrap: wrap;
-                                justify-content: space-around;
-                            }
-                            
-                            #categorie {
-                                display: flex;
-                                flex-direction: column;
-                                flex-wrap: wrap;
-                                justify-content: center;
-                                width: 30%;
-                                background: rgb(195, 195, 195);
-                                box-shadow: 6px 5px 10px #555;
-                            }
-                            
-                            .content {
-                                display: flex;
-                                flex-direction: row;
-                                flex-wrap: wrap;
-                                justify-content: center;
-                            }
-                            
-                            .content .img {
-                                margin-top: 2%;
-                            }
-                            
-                            .movie {
-                                display: block;
-                                width: 200px;
-                                height: auto;
-                                padding: 0%;
-                                text-decoration: none;
-                                text-align: center;
-                                box-shadow: 5px 5px 10px #222;
-                                background-repeat: no-repeat;
-                                background-position: 50% 50%;
-                                background-size: cover;
-                            }
-                            
-                            .title a {
-                                text-decoration: none;
-                                text-align: center;
-                                color: #FF8868;
-                                text-shadow: 2px 2px 1px #222;
-                            }
-                            
-                            .text {
-                                padding-left: 4%;
-                                padding-right: 4%;
-                                padding-bottom: 3%;
-                            }
-                            
-                            .text a {
-                                text-align: center;
-                                text-decoration: none;
-                                color: #222;
-                            }
-                            
-                            @media only screen and (max-width: 750px) {
-                                .movie {
-                                    width: 100px;
-                                }
-                                .title a {
-                                    font-size: small;
-                                }
-                                #categorie {
-                                    display: table;
-                                    width: 44%;
-                                    text-align: center;
-                                }
-                                .outNow a {
-                                    font-size: small;
-                                }
-                            }
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+/* Out now Banner */
+
+.theatre {
+    margin-bottom: 4%;
+    margin-top: 3%;
+    background: rgb(195, 195, 195);
+}
+
+.outNow {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px #555;
+}
+
+.outNow a {
+    text-align: center;
+    color: #ff8868;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px #222;
+}
+
+.movieContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(195, 195, 195);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.movieContainer div a {
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+
+.movieContainer div a img {
+    margin-bottom: 5%;
+}
+
+
+/* Categoriebanner */
+
+.seeAlso {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#categorie {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 43%;
+    background: rgb(195, 195, 195);
+    box-shadow: 6px 5px 10px #555;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content .img {
+    margin-top: 2%;
+}
+
+.movie {
+    display: block;
+    width: 300px;
+    height: auto;
+    padding: 0%;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 5px 5px 10px #222;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.title a {
+    text-decoration: none;
+    text-align: center;
+    color: #ff8868;
+    text-shadow: 2px 2px 1px #222;
+}
+
+.text {
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 3%;
+}
+
+.text a {
+    text-align: center;
+    text-decoration: none;
+    color: #222;
+}
+
+@media only screen and (max-width: 750px) {
+    .movie {
+        width: 100px;
+    }
+    .title a {
+        font-size: small;
+    }
+    #categorie {
+        display: table;
+        width: 44%;
+        text-align: center;
+    }
+    .outNow a {
+        font-size: small;
+    }
+}

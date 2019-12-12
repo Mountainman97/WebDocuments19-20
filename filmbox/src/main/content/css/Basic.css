@@ -8,8 +8,8 @@
 
 body {
     margin: 0;
-    background-color: #F3F3F0;
-    font-family: 'Oxygen', sans-serif;
+    background-color: #f3f3f0;
+    font-family: "Oxygen", sans-serif;
     padding: 0%;
     color: #222;
     display: flex;
@@ -35,7 +35,7 @@ nav li {
 
 nav li a {
     padding: 1.5em;
-    height: 1.0em;
+    height: 1em;
     display: inline-block;
     color: white;
     text-align: center;
@@ -47,7 +47,7 @@ nav li a:hover:not(.active) {
 }
 
 nav li .active {
-    background-color: #FF8868;
+    background-color: #ff8868;
 }
 
 
@@ -57,7 +57,7 @@ nav li .active {
     position: relative;
     display: inline-block;
     padding: 1.5em;
-    height: 1.0em;
+    height: 1em;
     display: inline-block;
     color: white;
     text-align: center;
@@ -101,6 +101,7 @@ nav li .active {
     nav ul {
         margin: 0px;
         padding: 10px 0px 0px 0px;
+        font-size: smaller;
     }
     nav ul li {
         width: 33.3333%;
@@ -177,7 +178,7 @@ Orange Panner under the nav (See about us
     padding: 2%;
     text-align: center;
     display: block;
-    background-color: #FF8868;
+    background-color: #ff8868;
     font-size: normal;
     color: #333;
     font-style: italic;
