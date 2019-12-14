@@ -3,171 +3,186 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>Ranking of Movies</title>
-    <!--CSS-->
-    <!-- for Navigationbar -->
-    <link rel="stylesheet" href="content/css/Basic.css" />
-    <link rel="stylesheet" href="content/css/MovieRank.css" />
-    <link rel="stylesheet" href="content/css/Movie.css" />
+	<title>Ranking of Movies</title>
+	<!--CSS-->
+	<!-- for Navigationbar -->
+	<link rel="stylesheet" href="content/css/Basic.css" />
+	<link rel="stylesheet" href="content/css/MovieRank.css" />
+	<link rel="stylesheet" href="content/css/Movie.css" />
+	<script src="content/javascript/Collabse.js">
+	</script>
 </head>
 
 
 <body>
-    <header>
-        <nav>
-            <ul id="NavList">
-                <li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
-                <li><a href="index.xhtml">Home</a></li>
-                <li><a class="active" href="MovieNow.xhtml">Movies</a></li>
-                <li><a href="Announce.xhtml">Announcment</a></li>
-                <li><a href="AboutUs.xhtml">About</a></li>
-                <li><a href="ContactUs.xhtml">Contact</a></li>
-                <li><a href="FAQ.xhtml">FAQ</a></li>
-            </ul>
-            <panner class="OrangePanner">
-                <h2>
-                    The Best Movies ever!
-                </h2>
-                <p>Want to see the best movies ever? You'r right here!</p>
-            </panner>
-        </nav>
-    </header>
+	<header>
+		<nav>
+			<ul id="NavList">
+				<li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
+				<li><a href="index.xhtml">Home</a></li>
+				<li class="CollabseMovieNav" onmouseover="showlist()" onmouseout="hidelist()">
+					<a href="MovieNow.xhtml" class="active">Movies</a>
+					<div id="movielist">
+				<li><a href="MovieRank.xhtml" class="activeSecound">Popular</a></li>
+				<li><a href="MovieRecommend.xhtml">suggest</a></li>
+				<li><a href="MovieUpcoming.xhtml">Soon..</a></li>
+				</div>
+				</li>
+				<li><a href="Announce.xhtml">Announcment</a></li>
+				<li><a href="AboutUs.xhtml">About</a></li>
+				<li><a href="ContactUs.xhtml">Contact</a></li>
+				<li><a href="FAQ.xhtml">FAQ</a></li>
+			</ul>
+			<panner id="OrangePanner">
+				<h2>
+					The Best Movies ever!
+				</h2>
+				<p>Want to see the best movies ever? You'r right here!</p>
+			</panner>
+		</nav>
+	</header>
 
 
-    <main>
+	<main>
 
-        <div class="head">
+		<div class="head">
 
-            <div class="popular" id="box">
-                <a href="MovieUpcoming.xhtml"><h2>&#10094; Comming Soon </h2></a>
-            </div>
+			<div class="popular" id="box">
+				<a href="MovieUpcoming.xhtml">
+					<h2>&#10094; Comming Soon </h2>
+				</a>
+			</div>
 
-            <div class="recommended" id="box">
-                <a href="MovieRecommend.xhtml"><h2>Our Recommondations &#11014;&#65038;</h2></a>
-            </div>
+			<div class="recommended" id="box">
+				<a href="MovieRecommend.xhtml">
+					<h2>Our Recommondations &#11014;&#65038;</h2>
+				</a>
+			</div>
 
-            <div class="comming" id="box">
-                <a href="MovieNow.xhtml"><h2>In Theatres &#10095;</h2></a>
-            </div>
+			<div class="comming" id="box">
+				<a href="MovieNow.xhtml">
+					<h2>In Theatres &#10095;</h2>
+				</a>
+			</div>
 
-        </div>
+		</div>
 
-        <div class="lists">
+		<div class="lists">
 
-            <div class="ever" id="categorie">
+			<div class="ever" id="categorie">
 
-                <h1>Best Movies ever!</h1>
+				<h1>Best Movies ever!</h1>
 
-                <div class="ranked">
-                    <h2>1.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/revenant.jpg" alt="revenant"/></a>
-                    <div class="description">
-                        <h3>The Revenant</h3>
-                        <p>Regie: Alejandro G. Iñárritu</p>
-                        <p>Year: 2015</p>
-                    </div>
-                </div>
+				<div class="ranked">
+					<h2>1.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/revenant.jpg" alt="revenant" /></a>
+					<div class="description">
+						<h3>The Revenant</h3>
+						<p>Regie: Alejandro G. Iñárritu</p>
+						<p>Year: 2015</p>
+					</div>
+				</div>
 
-                <div class="ranked">
-                    <h2>2.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/interstellar.jpg" alt="interstellar"/></a>
-                    <div class="description">
-                        <h3>Interstellar</h3>
-                        <p>Regie: Christopher Nolan</p>
-                        <p>Year: 2014</p>
-                    </div>
-                </div>
+				<div class="ranked">
+					<h2>2.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/interstellar.jpg" alt="interstellar" /></a>
+					<div class="description">
+						<h3>Interstellar</h3>
+						<p>Regie: Christopher Nolan</p>
+						<p>Year: 2014</p>
+					</div>
+				</div>
 
-                <div class="ranked">
-                    <h2>3.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/avatar.jpg" alt="avatar"/></a>
-                    <div class="description">
-                        <h3>Avatar</h3>
-                        <p>Regie: James Cameron</p>
-                        <p>Year: 2009</p>
-                    </div>
-                </div>
+				<div class="ranked">
+					<h2>3.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/avatar.jpg" alt="avatar" /></a>
+					<div class="description">
+						<h3>Avatar</h3>
+						<p>Regie: James Cameron</p>
+						<p>Year: 2009</p>
+					</div>
+				</div>
 
-                <div class="ranked">
-                    <h2>4.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/lordOfTheRings1.jpg" alt="Lord of the Rings" /></a>
-                    <div class="description">
-                        <h3>Lord of the Rings</h3>
-                        <p>Regie: Peter Jackson</p>
-                        <p>Year: 2001</p>
-                    </div>
-                </div>
-                <div class="ranked">
-                    <h2>5.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/titanic.jpg" alt="Titanic" /></a>
-                    <div class="description">
-                        <h3>Titanic</h3>
-                        <p>Regie: James Cameron</p>
-                        <p>Year: 1997</p>
-                    </div>
-                </div>
+				<div class="ranked">
+					<h2>4.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/lordOfTheRings1.jpg" alt="Lord of the Rings" /></a>
+					<div class="description">
+						<h3>Lord of the Rings</h3>
+						<p>Regie: Peter Jackson</p>
+						<p>Year: 2001</p>
+					</div>
+				</div>
+				<div class="ranked">
+					<h2>5.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/titanic.jpg" alt="Titanic" /></a>
+					<div class="description">
+						<h3>Titanic</h3>
+						<p>Regie: James Cameron</p>
+						<p>Year: 1997</p>
+					</div>
+				</div>
 
-            </div>
+			</div>
 
-            <div class="month" id="categorie">
+			<div class="month" id="categorie">
 
-                <h1>Best movies in the last month!</h1>
+				<h1>Best movies in the last month!</h1>
 
-                <div class="ranked">
-                    <h2>1.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/joker.jpg" alt="Joker" /></a>
-                    <div class="description">
-                        <h3>Joker</h3>
-                        <p>Regie: Todd Phillips</p>
-                        <p>Year: 2019</p>
-                    </div>
-                </div>
-                <div class="ranked">
-                    <h2>2.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/Frozen2.jpg" alt="Frozen 2" /></a>
-                    <div class="description">
-                        <h3>Frozen 2</h3>
-                        <p>Regie: Jennifer Lee, Chris Buck</p>
-                        <p>Year: 2019</p>
-                    </div>
-                </div>
-                <div class="ranked">
-                    <h2>3.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/adamsfamily.jpg" alt="Adams Family" /></a>
-                    <div class="description">
-                        <h3>The Adams Family</h3>
-                        <p>Regie: Conrad Vernon, Greg Tiernan</p>
-                        <p>Year: 2019</p>
-                    </div>
-                </div>
-                <div class="ranked">
-                    <h2>4.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="Last Christmas" /></a>
-                    <div class="description">
-                        <h3>Last Christmas</h3>
-                        <p>Regie: Paul Feig</p>
-                        <p>Year: 2019</p>
-                    </div>
-                </div>
-                <div class="ranked">
-                    <h2>5.</h2>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/Zombieland.jpg" alt="Zombieland 2" /></a>
-                    <div class="description">
-                        <h3>Zombieland 2</h3>
-                        <p>Regie: Ruben Fleischer</p>
-                        <p>Year: 2019</p>
-                    </div>
-                </div>
+				<div class="ranked">
+					<h2>1.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/joker.jpg" alt="Joker" /></a>
+					<div class="description">
+						<h3>Joker</h3>
+						<p>Regie: Todd Phillips</p>
+						<p>Year: 2019</p>
+					</div>
+				</div>
+				<div class="ranked">
+					<h2>2.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/Frozen2.jpg" alt="Frozen 2" /></a>
+					<div class="description">
+						<h3>Frozen 2</h3>
+						<p>Regie: Jennifer Lee, Chris Buck</p>
+						<p>Year: 2019</p>
+					</div>
+				</div>
+				<div class="ranked">
+					<h2>3.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/adamsfamily.jpg" alt="Adams Family" /></a>
+					<div class="description">
+						<h3>The Adams Family</h3>
+						<p>Regie: Conrad Vernon, Greg Tiernan</p>
+						<p>Year: 2019</p>
+					</div>
+				</div>
+				<div class="ranked">
+					<h2>4.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="Last Christmas" /></a>
+					<div class="description">
+						<h3>Last Christmas</h3>
+						<p>Regie: Paul Feig</p>
+						<p>Year: 2019</p>
+					</div>
+				</div>
+				<div class="ranked">
+					<h2>5.</h2>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/Zombieland.jpg" alt="Zombieland 2" /></a>
+					<div class="description">
+						<h3>Zombieland 2</h3>
+						<p>Regie: Ruben Fleischer</p>
+						<p>Year: 2019</p>
+					</div>
+				</div>
 
-            </div>
-                
-        </div>
+			</div>
 
-    </main>
+		</div>
+
+	</main>
 
 
 
-    <!--<div class="ever">
+	<!--<div class="ever">
                         <h1 class="header">The best movies ever:</h1>
                         <div class="movie">
                             <img class="thumb" src="resources/movies/revenant.jpg" alt="Joker" />
@@ -259,24 +274,24 @@
 
 
 
-    <div>
-        <br/><br/><br/><br/><br/><br/><br/><br/>
-    </div>
+	<div>
+		<br /><br /><br /><br /><br /><br /><br /><br />
+	</div>
 
 
-    <footer class="basicFooter">
-        <div class="socialMedia_Footer">
+	<footer class="basicFooter">
+		<div class="socialMedia_Footer">
 
-            <a href="https://www.instagram.com/?hl=de">
-                <img src="resources/icons/icons8-instagram_new.png" alt="instagram" /></a>
-            <a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7">
-                <img src="resources/icons/icons8-marker.png" alt="adress" /></a>
-            <a href="https://de-de.facebook.com/">
-                <img src="resources/icons/icons8-facebook_filled.png" alt="facebook" />
-            </a>
-            <p class="copyRights"> © 2019 Copyright: <a herf="#" id="owner">FilmBox</a></p>
-        </div>
-    </footer>
+			<a href="https://www.instagram.com/?hl=de">
+				<img src="resources/icons/icons8-instagram_new.png" alt="instagram" /></a>
+			<a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7">
+				<img src="resources/icons/icons8-marker.png" alt="adress" /></a>
+			<a href="https://de-de.facebook.com/">
+				<img src="resources/icons/icons8-facebook_filled.png" alt="facebook" />
+			</a>
+			<p class="copyRights"> © 2019 Copyright: <a herf="#" id="owner">FilmBox</a></p>
+		</div>
+	</footer>
 
 </body>
 

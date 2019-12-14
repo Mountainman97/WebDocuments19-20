@@ -9,6 +9,8 @@
 	<link rel="stylesheet" href="content/css/Announcment.css" />
 	<link rel="stylesheet" href="content/css/Basic.css" />
 	<script src="content/javascript/Announcment.js"></script>
+	<script src="content/javascript/Collabse.js">
+	</script>
 </head>
 
 <body onload="testFunction()">
@@ -17,13 +19,20 @@
 			<ul id="NavList">
 				<li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
 				<li><a href="index.xhtml">Home</a></li>
-				<li><a href="MovieNow.xhtml">Movies</a></li>
+				<li class="CollabseMovieNav" onmouseover="showlist()" onmouseout="hidelist()">
+					<a href="MovieNow.xhtml">Movies</a>
+					<div id="movielist">
+				<li><a href="MovieRank.xhtml">Popular</a></li>
+				<li><a href="MovieRecommend.xhtml">suggest</a></li>
+				<li><a href="MovieUpcoming.xhtml">Soon..</a></li>
+				</div>
+				</li>
 				<li><a class="active" href="Announce.xhtml">Announcment</a></li>
 				<li><a href="AboutUs.xhtml">About</a></li>
 				<li><a href="ContactUs.xhtml">Contact</a></li>
 				<li><a href="FAQ.xhtml">FAQ</a></li>
 			</ul>
-			<panner class="OrangePanner">
+			<panner id="OrangePanner">
 				<h1 style="font-size: xx-large;">
 					What's new?
 				</h1>
@@ -38,12 +47,12 @@
 			<h1 id="overhead">General Information</h1>
 			<div class="information">
 				<div class="news">
-					<p class="title"><strong>Be part of <br/>Friendly Fire 6</strong></p>
+					<p class="title"><strong>Be part of <br />Friendly Fire 6</strong></p>
 					<p class="time">08.12.2019</p>
 					<p class="text">
 						We are proud to announce, that we will be part of the "Friendly Fire 6"
 						in December next year. If you still want to donate money for this year
-						Donation Stream click 
+						Donation Stream click
 						<a href="https://www.betterplace.org/de/fundraising-events/33575">here</a>!
 					</p>
 				</div>
@@ -78,7 +87,7 @@
 					<p class="title"><strong>Meeting next Week!</strong></p>
 					<p class="time">07.12.2019</p>
 					<p class="text">
-						We sadly have to announce, that the meeting next week has to be cancled because of 
+						We sadly have to announce, that the meeting next week has to be cancled because of
 						injury. See you the meeting after on 20.12.2019.
 					</p>
 				</div>
@@ -86,7 +95,7 @@
 					<p class="title"><strong>Meeting this Week!</strong></p>
 					<p class="time">02.12.2019</p>
 					<p class="text">
-						The meeting will be happen on Friday the 06.12.2019 in Room 0.17 in Main Building 
+						The meeting will be happen on Friday the 06.12.2019 in Room 0.17 in Main Building
 						at University.
 					</p>
 				</div>
@@ -94,7 +103,7 @@
 					<p class="title"><strong>Meeting this Week!</strong></p>
 					<p class="time">25.11.2019</p>
 					<p class="text">
-						The meeting will be happen on Friday the 29.11.2019 in Room 0.17 in Main Building 
+						The meeting will be happen on Friday the 29.11.2019 in Room 0.17 in Main Building
 						at University.
 					</p>
 				</div>
@@ -102,7 +111,7 @@
 					<p class="title"><strong>Meeting this Week!</strong></p>
 					<p class="time">18.11.2019</p>
 					<p class="text">
-						The meeting will be happen on Friday the 22.11.2019 in Room 0.17 in Main Building 
+						The meeting will be happen on Friday the 22.11.2019 in Room 0.17 in Main Building
 						at University.
 					</p>
 				</div>
@@ -113,16 +122,16 @@
 	<footer class="basicFooter">
 		<div class="socialMedia_Footer">
 
-            <a href="https://www.instagram.com/?hl=de">
-                <img src="resources/icons/icons8-instagram_new.png" alt="instagram" /></a>
-            <a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7">
-                <img src="resources/icons/icons8-marker.png" alt="adress" /></a>
-            <a href="https://de-de.facebook.com/">
-                <img src="resources/icons/icons8-facebook_filled.png" alt="facebook" />
-            </a>
-            <p class="copyRights"> © 2019 Copyright: <a herf="#" id="owner">FilmBox</a></p>
-        </div>
-    </footer>
+			<a href="https://www.instagram.com/?hl=de">
+				<img src="resources/icons/icons8-instagram_new.png" alt="instagram" /></a>
+			<a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7">
+				<img src="resources/icons/icons8-marker.png" alt="adress" /></a>
+			<a href="https://de-de.facebook.com/">
+				<img src="resources/icons/icons8-facebook_filled.png" alt="facebook" />
+			</a>
+			<p class="copyRights"> © 2019 Copyright: <a herf="#" id="owner">FilmBox</a></p>
+		</div>
+	</footer>
 
 </body>
 

@@ -3,90 +3,105 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <title>In Theaters</title>
-    <link rel="stylesheet" href="content/css/Basic.css" />
-    <link rel="stylesheet" href="content/css/MovieNow.css" />
-    <link rel="stylesheet" href="content/css/Movie.css" />
+	<title>In Theaters</title>
+	<link rel="stylesheet" href="content/css/Basic.css" />
+	<link rel="stylesheet" href="content/css/MovieNow.css" />
+	<link rel="stylesheet" href="content/css/Movie.css" />
+	<script src="content/javascript/Collabse.js"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul id="NavList">
-                <li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
-                <li><a href="index.xhtml">Home</a></li>
-                <li><a class="active" href="MovieNow.xhtml">Movies</a></li>
-                <li><a href="Announce.xhtml">Announcment</a></li>
-                <li><a href="AboutUs.xhtml">About</a></li>
-                <li><a href="ContactUs.xhtml">Contact</a></li>
-                <li><a href="FAQ.xhtml">FAQ</a></li>
-            </ul>
-            <panner class="OrangePanner">
-                <h2>
-                    Lookup what's now in Theatres!
-                </h2>
-                <p>
-                    Discover the World of Movies!
-                </p>
-            </panner>
-        </nav>
-    </header>
+	<header>
+		<nav>
+			<ul id="NavList">
+				<li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
+				<li><a href="index.xhtml">Home</a></li>
+
+				<li class="CollabseMovieNav" onmouseover="showlist()" onmouseout="hidelist()">
+					<a href="MovieNow.xhtml" class="active">Movies</a>
+					<div id="movielist">
+				<li><a href="MovieRank.xhtml">Popular</a></li>
+				<li><a href="MovieRecommend.xhtml">suggest</a></li>
+				<li><a href="MovieUpcoming.xhtml">Soon..</a></li>
+				</div>
+				</li>
+				<li><a href="Announce.xhtml">Announcment</a></li>
+				<li><a href="AboutUs.xhtml">About</a></li>
+				<li><a href="ContactUs.xhtml">Contact</a></li>
+				<li><a href="FAQ.xhtml">FAQ</a></li>
+			</ul>
+			<panner id="OrangePanner">
+				<h2>
+					Lookup what's now in Theatres!
+				</h2>
+				<p>
+					Discover the World of Movies!
+				</p>
+			</panner>
+		</nav>
+	</header>
 
 
-    <main>
+	<main>
 
-        <div class="head">
+		<div class="head">
 
-            <div class="popular" id="box">
-                <a href="MovieRank.xhtml"><h2>&#10094; Most Popular Movies </h2></a>
-            </div>
+			<div class="popular" id="box">
+				<a href="MovieRank.xhtml">
+					<h2>&#10094; Most Popular Movies </h2>
+				</a>
+			</div>
 
-            <div class="recommended" id="box">
-                <a href="MovieRecommend.xhtml"><h2>Our Recommondations &#11014;&#65038;</h2></a>
-            </div>
+			<div class="recommended" id="box">
+				<a href="MovieRecommend.xhtml">
+					<h2>Our Recommondations &#11014;&#65038;</h2>
+				</a>
+			</div>
 
-            <div class="comming" id="box">
-                <a href="MovieUpcoming.xhtml"><h2>Comming Soon &#10095;</h2></a>
-            </div>
+			<div class="comming" id="box">
+				<a href="MovieUpcoming.xhtml">
+					<h2>Comming Soon &#10095;</h2>
+				</a>
+			</div>
 
-        </div>
+		</div>
 
-        <div class="inTheatres">
-            <h1>In Theatres</h1>
-            <div class="movies">
-                <div>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/adamsfamily.jpg" alt="adamsfamily"/></a>
-                </div>
-                <div>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/Frozen2.jpg" alt="frozen2"/></a>
-                </div>
-                <div>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/joker.jpg" alt="joker"/></a>
-                </div>
-                <div>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/jumanjiNext.jpg" alt="jumanji"/></a>
-                </div>
-                <div>
-                    <a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="lastchristmas"/></a>
-                </div>
-            </div>
-        </div>
+		<div class="inTheatres">
+			<h1>In Theatres</h1>
+			<div class="movies">
+				<div>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/adamsfamily.jpg" alt="adamsfamily" /></a>
+				</div>
+				<div>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/Frozen2.jpg" alt="frozen2" /></a>
+				</div>
+				<div>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/joker.jpg" alt="joker" /></a>
+				</div>
+				<div>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/jumanjiNext.jpg" alt="jumanji" /></a>
+				</div>
+				<div>
+					<a href="MovieInfo.xhtml"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="lastchristmas" /></a>
+				</div>
+			</div>
+		</div>
 
-    </main>
+	</main>
 
-    <footer class="basicFooter">
-        <div class="socialMedia_Footer">
+	<footer class="basicFooter">
+		<div class="socialMedia_Footer">
 
-            <a href="https://www.instagram.com/?hl=de">
-                <img src="resources/icons/icons8-instagram_new.png" alt="instagram" /></a>
-            <a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7">
-                <img src="resources/icons/icons8-marker.png" alt="adress" /></a>
-            <a href="https://de-de.facebook.com/">
-                <img src="resources/icons/icons8-facebook_filled.png" alt="facebook" />
-            </a>
-            <p class="copyRights"> © 2019 Copyright: <a herf="#" id="owner">FilmBox</a></p>
-        </div>
-    </footer>
+			<a href="https://www.instagram.com/?hl=de">
+				<img src="resources/icons/icons8-instagram_new.png" alt="instagram" /></a>
+			<a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7">
+				<img src="resources/icons/icons8-marker.png" alt="adress" /></a>
+			<a href="https://de-de.facebook.com/">
+				<img src="resources/icons/icons8-facebook_filled.png" alt="facebook" />
+			</a>
+			<p class="copyRights"> © 2019 Copyright: <a herf="#" id="owner">FilmBox</a></p>
+		</div>
+	</footer>
 
 </body>
 
