@@ -5,10 +5,24 @@
         <Title>Home</Title>
         <Dest>index.html</Dest>
     </Tab>
+
     <Tab>
         <Title>Movies</Title>
         <Dest>MovieNow.html</Dest>
+        <Drop>
+            <Title>Most Popular</Title>
+            <Dest>MovieRank.html</Dest>
+        </Drop>
+        <Drop>
+            <Title>Recommondation</Title>
+            <Dest>MovieRecommend.html</Dest>
+        </Drop>
+        <Drop>
+            <Title>Comming Soon</Title>
+            <Dest>MovieUpcoming.html</Dest>
+        </Drop>
     </Tab>
+    
     <Tab>
         <Title>Announcments</Title>
         <Dest>Announce.html</Dest>
