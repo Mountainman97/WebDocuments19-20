@@ -12,12 +12,12 @@
 - Anouncment Page
 
 ### Badr Aldin Alzein:
-- Header | Footer | Navigation | Orange panner
+- Header | Footer | Navigation  
 - About Us
 - Contact US
 - FAQ
 - Responsive 
+- fixed adds 
+- Orange panner 
 
-### Notation
-All the work and commits have been done on the Other Branchs and we pushed a final version at the End to the master Branch.
-Please Consider checking our step by step work on on the Other Branchs. 
+
