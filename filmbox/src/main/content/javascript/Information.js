@@ -23,7 +23,7 @@ function fillInformation (file) {
     var movieAuthor = "J.J. Abrams";
 
     movie = xmlDoc.getElementById("1");
-    movieTitle = movie.childNodes[0].textContent;
+    //movieTitle = movie.childNodes[0].textContent;
 
     document.getElementById("OrangePanner").innerHTML = "<h2>" + movieTitle + "</h2>";
 
