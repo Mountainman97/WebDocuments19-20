@@ -1,13 +1,66 @@
 <?xml version="1.0"?>
 <library>
-    <Movie id="1">
+    <!-- Best Movie ever -->
+    <Movie id="revenant">
+        <title>The Revenant</title>
+        <regie>Alejandro G. Iñárritu</regie>
+        <year>2015</year>
+        <url>resources/movies/revenant.jpg</url>
+    </Movie>
+    <Movie id="interstellar">
+        <title>Interstellar</title>
+        <regie>Christopher Nolan</regie>
+        <year>2014</year>
+        <url>resources/movies/interstellar.jpg</url>
+    </Movie>
+    <Movie id="avatar">
+        <title>Avatar</title>
+        <regie>James Cameron</regie>
+        <year>2009</year>
+        <url>resources/movies/avatar.jpg</url>
+    </Movie>
+    <Movie id="lordoftherings">
+        <title>Lord of The Rings</title>
+        <regie>Peter Jackson</regie>
+        <year>2001</year>
+        <url>resources/movies/lordOfTheRings1.jpg</url>
+    </Movie>
+    <Movie id="titanic">
+        <title>Titanic</title>
+        <regie>James Cameron</regie>
+        <year>1997</year>
+        <url>resources/movies/titanic.jpg</url>
+    </Movie>
+
+    <!-- Best Movies last Month -->
+    <Movie id="joker">
+        <title>Joker</title>
+        <regie>Todd Phillips</regie>
+        <year>2019</year>
+        <url>resources/movies/joker.jpg</url>
+    </Movie>
+    <Movie id="Frozen2">
         <title>Frozen 2</title>
-        <authors>J.J. Abrams</authors>
+        <regie>Jennifer Lee, Chris Buck</regie>
+        <year>2019</year>
+        <url>resources/movies/Frozen2.jpg</url>
     </Movie>
-
-    <Movie id="2">
-        <title>Star Wars 9</title>
-        <authors>J.J. Abrams</authors>
+    <Movie id="adamsfamily">
+        <title>The Adams Family</title>
+        <regie>Conrad Vernon, Greg Tiernan</regie>
+        <year>2019</year>
+        <url>resources/movies/adamsfamily.jpg</url>
     </Movie>
-
+    <Movie id="lastChristmas">
+        <title>Last Christmas</title>
+        <regie>Paul Feig</regie>
+        <year>2019</year>
+        <url>resources/movies/lastChristmas.jpg</url>
+    </Movie>
+    <Movie id="zombieland">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+    </Movie>
 </library>
