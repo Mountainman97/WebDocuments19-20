@@ -119,6 +119,17 @@ nav li .active {
 }
 
 
+/*addes in movies */
+
+.fixedhead {
+    position: fixed;
+    right: 0;
+    display: grid;
+    font-size: x-small;
+    height: min-content;
+}
+
+
 /**For Mobile */
 
 @media only screen and (max-width: 750px) {
@@ -158,6 +169,9 @@ nav li .active {
     }
     .basicFooter {
         margin-top: 0px;
+    }
+    .fixedhead {
+        display: none;
     }
 }
 
