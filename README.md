@@ -20,4 +20,7 @@
 - fixed adds 
 - Orange panner 
 
+### Notation 
+our issues are posted on the Repo from the other Gruppe. 
+https://github.com/minaleebtu/webAssignment2/issues
 
