@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<library>
+
+    <Tab>
+        <Title>Home</Title>
+        <Dest>index.html</Dest>
+    </Tab>
+    <Tab>
+        <Title>Movies</Title>
+        <Dest>MovieNow.html</Dest>
+    </Tab>
+    <Tab>
+        <Title>Announcments</Title>
+        <Dest>Announce.html</Dest>
+    </Tab>
+    <Tab>
+        <Title>About</Title>
+        <Dest>AboutUs.html</Dest>
+    </Tab>
+    <Tab>
+        <Title>Contact</Title>
+        <Dest>ContactUs.html</Dest>
+    </Tab>
+    <Tab>
+        <Title>FAQ</Title>
+        <Dest>FAQ.html</Dest>
+    </Tab>
+
+</library>
