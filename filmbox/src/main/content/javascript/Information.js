@@ -26,39 +26,42 @@ function fillInformation (file) {
 
     var movieTitle = "", movieRegie = "", movieYear = "", movieURL = "";
 
-    var ever = document.getElementsByClassName("ever");
 
     // iterate thru the best 5 Movies ever
     for (var i = 0; i < 5; i++) {
         var m = movie[i].childNodes;
-        movieTitle = m[1];
-        movieRegie = m[3];
-        movieYear = m[5];
-        movieURL = m[7];
+        movieTitle = m[1].textContent;
+        movieRegie = m[3].textContent;
+        movieYear = m[5].textContent;
+        movieURL = m[7].textContent;
 
-        var div = document.createElement("div");
-        div.className = "ranked";
-        div.innerHTML = '<h2>' + i + '</h2> <a href="MovieInfo.xhtml"><img class="movie" src="' + movieURL + '" alt="revenant" /></a><div class="description"><h3>' + 
+        console.log(movieURL);
+
+        var element = document.createElement("div");
+        element.className = "ranked";
+        element.innerHTML = '<h2>' + (i+1) + '</h2> <a href="MovieInfo.xhtml"><img class="movie" src="' + movieURL + '" alt="revenant" /></a><div class="description"><h3>' + 
             movieTitle + '</h3><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p></div>';
 
-        ever.appendChild(div);
+        console.log(element);
+
+        document.getElementsByClassName("ever")[0].appendChild(element);
     }
 
-    var month = document.getElementsByClassName("month");
+   // console.log(ever);
 
     // iterate thru the best 5 Movies last month
-    for (var i = 5; i < month.length; i++) {
+    for (var i = 5; i < movie.length; i++) {
         var m = movie[i].childNodes;
-        movieTitle = m[1];
-        movieRegie = m[3];
-        movieYear = m[5];
-        movieURL = m[7];
+        movieTitle = m[1].textContent;
+        movieRegie = m[3].textContent;
+        movieYear = m[5].textContent;
+        movieURL = m[7].textContent;
 
         var div = document.createElement("div");
         div.className = "ranked";
         div.innerHTML = '<h2>' + i + '</h2> <a href="MovieInfo.xhtml"><img class="movie" src="' + movieURL + '" alt="revenant" /></a><div class="description"><h3>' + 
             movieTitle + '</h3><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p></div>';
 
-        month.appendChild(div);
+        document.getElementsByClassName("month")[0].appendChild(div);
     }
 };
