@@ -19,7 +19,7 @@ body {
 #movielist {
     display: none;
     list-style-type: none;
-    width: 90px;
+    width: 100px;
     height: 100%;
     overflow: hidden;
     overflow-y: auto;
@@ -177,7 +177,7 @@ Footer
     position: relative;
     text-align: center;
     padding-top: 10px;
-    margin-top: 100px;
+    margin-top: 13%;
 }
 
 .copyRights {
