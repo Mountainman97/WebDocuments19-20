@@ -29,12 +29,7 @@ function fillInformation (file) {
 
     var movie = xmlDoc.getElementsByTagName("Movie");
 
-    console.log(file);
-    console.log(xmlDoc);
-    console.log(movie);
-
     var movieTitle = "", movieRegie = "", movieYear = "", movieURL = "";
-
 
     // iterate thru the best 5 Movies ever
     for (var i = 0; i < 5; i++) {
@@ -44,12 +39,10 @@ function fillInformation (file) {
         movieYear = m[5].textContent;
         movieURL = m[7].textContent;
 
-        console.log(movieURL);
-
         var element = document.createElement("div");
         element.className = "ranked";
-        element.innerHTML = '<h2>' + (i+1) + '</h2> <a href="MovieInfo.html" data-id="' + movieTitle + '"><img class="movie" src="' + movieURL + '" alt="revenant" /></a><div class="description"><h3>' + 
-            movieTitle + '</h3><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p></div>';
+        element.innerHTML = "<h2>" + (i+1) + "</h2> <a href='MovieInfo.html' data-id='" + movieTitle + "' onclick='saveMovie(this.getAttribute('data-id'))'><img class='movie' src='" + movieURL + "' alt='revenant' /></a><div class='description'><h3>" + 
+            movieTitle + "</h3><p>Regie:" + movieRegie +"</p><p>Year:" + movieYear + "</p></div>";
 
         console.log(element);
 
@@ -59,8 +52,8 @@ function fillInformation (file) {
    // console.log(ever);
 
     // iterate thru the best 5 Movies last month
-    for (var i = 5; i < 10; i++) {
-        var m = movie[i].childNodes;
+    for (var j = 5; j < 10; j++) {
+        var m = movie[j].childNodes;
         movieTitle = m[1].textContent;
         movieRegie = m[3].textContent;
         movieYear = m[5].textContent;
@@ -68,8 +61,23 @@ function fillInformation (file) {
 
         var div = document.createElement("div");
         div.className = "ranked";
-        div.innerHTML = '<h2>' + i + '</h2> <a href="MovieInfo.html"><img class="movie" src="' + movieURL + '" alt="revenant" /></a><div class="description"><h3>' + 
-            movieTitle + '</h3><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p></div>';
+        div.innerHTML = "<h2>" + (j-4) + "</h2>";
+
+
+        var a = document.createElement("a");
+        a.setAttribute("href", "MovieInfo.html");
+        a.setAttribute("data-id", movieTitle);
+        a.setAttribute("onclick", "saveMovie(this.getAttribute('data-id'))")
+        a.innerHTML = '<img class="movie" src="' + movieURL + '" alt="' + movieTitle + '" />';
+
+        var des = document.createElement("div");
+        des.className = "description";
+        des.innerHTML = '<h3>' + movieTitle + '</h3><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p>';
+
+        div.appendChild(a);
+        div.appendChild(des);
+
+        console.log(div);
 
         document.getElementsByClassName("month")[0].appendChild(div);
     }
@@ -86,8 +94,6 @@ function fillInformation2 (file) {
     var elementImg = document.createElement("li");
     elementImg.innerHTML = '<img class="logo" src="resources/filmboxLogo.svg" alt="logo" />';
     document.getElementById("NavList").appendChild(elementImg);
-
-    console.log(tab.length);
 
     for (var i = 0; i < tab.length; i++) {
         var tabTitle = "", tabDest = "", tabClass = "";
@@ -119,8 +125,6 @@ function fillInformation2 (file) {
             element.setAttribute("onmouseout" ,"hidelist()");
             element.innerHTML = '<a class="' + tabClass + '" href="' + tabDest + '">' + tabTitle + '</a>' +
                                 '<div id="movielist">' + dropElement + '</div>';
-
-            console.log(element);
 
             document.getElementById("NavList").appendChild(element);
         } else {
