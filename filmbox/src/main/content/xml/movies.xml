@@ -6,30 +6,60 @@
         <regie>Alejandro G. Iñárritu</regie>
         <year>2015</year>
         <url>resources/movies/revenant.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDo The Revevant
+        </plot>
     </Movie>
     <Movie id="interstellar">
         <title>Interstellar</title>
         <regie>Christopher Nolan</regie>
         <year>2014</year>
         <url>resources/movies/interstellar.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDo Interstellar
+        </plot>
     </Movie>
     <Movie id="avatar">
         <title>Avatar</title>
         <regie>James Cameron</regie>
         <year>2009</year>
         <url>resources/movies/avatar.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDo Avatar
+        </plot>
     </Movie>
     <Movie id="lordoftherings">
         <title>Lord of The Rings</title>
         <regie>Peter Jackson</regie>
         <year>2001</year>
         <url>resources/movies/lordOfTheRings1.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDo The Lord of the Rings
+        </plot>
     </Movie>
     <Movie id="titanic">
         <title>Titanic</title>
         <regie>James Cameron</regie>
         <year>1997</year>
         <url>resources/movies/titanic.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDo Titanic
+        </plot>
     </Movie>
 
     <!-- Best Movies last Month -->
@@ -38,29 +68,75 @@
         <regie>Todd Phillips</regie>
         <year>2019</year>
         <url>resources/movies/joker.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDo Joker
+        </plot>
     </Movie>
-    <Movie id="Frozen2">
+    <Movie id="frozen2">
         <title>Frozen 2</title>
         <regie>Jennifer Lee, Chris Buck</regie>
         <year>2019</year>
         <url>resources/movies/Frozen2.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            King Agnarr of Arendelle tells a story to his young children, Elsa and Anna, that their grandfather, King Runeard, established a treaty with the neighboring tribe of Northuldra by building a dam in their homeland, the Enchanted Forest. However, a fight
+            occurs, resulting in Runeard's death. The battle enrages the elemental spirits of Earth, Fire, Water, and Air of the forest. The spirits disappear and a wall of mist traps everyone in the Enchanted Forest. Agnarr barely escapes due
+            to the help of an unknown savior. <br /><br /> Three years after her coronation, Elsa celebrates autumn in the kingdom with Anna, Olaf the snowman, Kristoff the ice harvester, and Kristoff's reindeer Sven. When
+            Elsa hears a mysterious voice calling out to her, she follows it and unintentionally awakens the elemental spirits, who disrupt Arendelle, forcing everyone in the kingdom to evacuate. Grand Pabbie and the Trolls colony arrive at Arendelle
+            and Pabbie informs that they must set things right by discovering the truth about the kingdom's past. <br /><br /> Elsa, Anna, Olaf, Kristoff, and Sven embark to the Enchanted Forest, following the mysterious voice. After the mist
+            parts at Elsa's touch, the air spirit, in the form of a tornado, appears and sweeps everyone in its vortex. Elsa stops it, forming a set of ice sculptures. The sisters discover the sculptures are images from their father's past and
+            that their mother, Queen Iduna, was a Northuldra and was the one who had saved Agnarr. They encounter the Northuldra and a troop of Arendellian soldiers who are still in conflict with one another before the fire spirit appears. Elsa
+            discovers the spirit to be an agitated magical salamander, and calms it down. Elsa and Anna arrange a truce between the soldiers and the Northuldra by explaining that their mother was Northuldran and their father was Arendellian. They
+            later learn the existence of a fifth spirit who will unite people and the magic of nature. <br /><br /> Elsa, Anna and Olaf continue to head north, leaving Kristoff and Sven behind. They find their parents' wrecked ship and a map with
+            a route to Ahtohallan, a mythical river told by their mother to contain all explanations of the past. Elsa sends Anna and Olaf away to safety and continues alone. She encounters and tames the Nøkk, the water spirit who guards the sea
+            to Ahtohallan. Reaching Ahtohallan, Elsa discovers that the voice calling to her was Iduna; that her powers were gifted by nature because of Iduna's selfless act of saving Agnarr; and that Elsa herself is the fifth spirit.
+            <br /><br /> Elsa then learns that the dam was built as a ruse to reduce the Northuldra's resources because of King Runeard's dislike of the tribe's connection with magic and intention to incorporate the region into his kingdom. She
+            also learns he was the one who initiated the conflict by killing the leader of the Northuldra. Elsa sends this information to Anna before becoming frozen due to venturing into the most dangerous part of Ahtohallan. This in turn causes
+            Olaf to fade away. <br /><br /> Anna receives Elsa's message and concludes that the dam must be destroyed for peace to be restored. Anna finds and awakens the gigantic earth spirits and lures them towards the dam. The giants hurl boulders
+            aimed at Anna which destroy the dam, sending a flood down the fjord to the kingdom. Elsa thaws out and returns to Arendelle, diverting the flood and saving the kingdom. <br /><br /> As the wall of mist disappears, Elsa reunites with
+            Anna and revives Olaf. Kristoff asks Anna to marry him and she accepts. Elsa explains that she and Anna are now the bridge between the people and the magical spirits. Anna becomes the new Queen of Arendelle, while Elsa becomes the
+            protector of the Enchanted Forest, who regularly visits Arendelle as peace has been restored.
+        </plot>
     </Movie>
     <Movie id="adamsfamily">
         <title>The Adams Family</title>
         <regie>Conrad Vernon, Greg Tiernan</regie>
         <year>2019</year>
         <url>resources/movies/adamsfamily.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDo The Adams Family
+        </plot>
     </Movie>
     <Movie id="lastChristmas">
         <title>Last Christmas</title>
         <regie>Paul Feig</regie>
         <year>2019</year>
         <url>resources/movies/lastChristmas.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDo Last Christmas
+        </plot>
     </Movie>
-    <Movie id="zombieland">
+    <Movie id="zombieland2">
         <title>Zombieland 2</title>
         <regie>Ruben Fleischer</regie>
         <year>2019</year>
         <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Zombieland2
+        </plot>
     </Movie>
 </library>

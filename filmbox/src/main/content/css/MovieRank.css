@@ -48,69 +48,6 @@
     text-shadow: 2px 2px 1px #222;
 }
 
-.ever {}
-
-.month {}
-
-
-/*.ever {
-    display: flex;
-    flex-direction: column;
-    color: #222;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 2%;
-    background: rgb(195, 195, 195);
-}
-
-.header {
-    color: #FF8868;
-    text-shadow: 2px 2px 1px #222;
-}
-
-.month {
-    display: flex;
-    flex-direction: column;
-    color: #222;
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 2%;
-    background: rgb(195, 195, 195);
-}
-
-.thumb {
-    display: block;
-    width: 200px;
-    height: auto;
-    padding: 0%;
-    padding-top: 1%;
-    padding-bottom: 3%;
-    margin-left: 0%;
-    text-decoration: none;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-}
-
-.movie {
-    display: flex;
-    flex-direction: row;
-}
-
-.text {
-    padding-left: 5%;
-}
-
-.text h3 {
-    font-size: 1.5rem;
-}
-
-.text p {
-    font-size: 1.3rem;
-    width: 300px
-}*/
-
-
 /**For Mobile */
 
 @media only screen and (max-width: 750px) {

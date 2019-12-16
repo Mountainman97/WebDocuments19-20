@@ -26,14 +26,6 @@
     <Tab>
         <Title>Announcments</Title>
         <Dest>Announce.html</Dest>
-        <Drop>
-            <Title>suggest</Title>
-            <Dest>MovieRecommend.html</Dest>
-        </Drop>
-        <Drop>
-            <Title>Soon..</Title>
-            <Dest>MovieUpcoming.html</Dest>
-        </Drop>
     </Tab>
     <Tab>
         <Title>About</Title>
@@ -49,3 +41,20 @@
     </Tab>
 
 </library>
+
+<!-- Original Nav for html
+    <li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
+    <li><a href="index.html">Home</a></li>
+    <li class="CollabseMovieNav" onmouseover="showlist()" onmouseout="hidelist()">
+        <a href="MovieNow.html" class="active">Movies</a>
+        <div id="movielist">
+            <a href="MovieRank.html" class="activeSecound">Popular</a>
+            <a href="MovieRecommend.html">suggest</a>
+            <a href="MovieUpcoming.html">Soon..</a>
+        </div>
+    </li>
+    <li><a href="Announce.html">Announcment</a></li>
+    <li><a href="AboutUs.html">About</a></li>
+    <li><a href="ContactUs.html">Contact</a></li>
+    <li><a href="FAQ.html">FAQ</a></li>
+-->

@@ -1,36 +1,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
     <title>Our Recommendation</title>
-    <!--CSS-->
-    <!-- for Navigationbar -->
+    <meta charset="utf-8">
     <link rel="stylesheet" href="content/css/Basic.css" />
     <link rel="stylesheet" href="content/css/MovieRecommended.css" />
     <link rel="stylesheet" href="content/css/Movie.css" />
     <script src="content/javascript/Collabse.js">
     </script>
+    <script src="content/javascript/Navbar.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
             <ul id="NavList">
-                <li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
-                <li><a href="index.html">Home</a></li>
-                <li class="CollabseMovieNav" onmouseover="showlist()" onmouseout="hidelist()">
-                    <a href="MovieNow.html" class="active">Movies</a>
-                    <div id="movielist">
-                        <a href="MovieRank.html">Popular</a>
-                        <a href="MovieRecommend.html" class="activeSecound">suggest</a>
-                        <a href="MovieUpcoming.html">Soon..</a>
-                    </div>
-                </li>
-                <li><a href="Announce.html">Announcment</a></li>
-                <li><a href="AboutUs.html">About</a></li>
-                <li><a href="ContactUs.html">Contact</a></li>
-                <li><a href="FAQ.html">FAQ</a></li>
+                <!-- generated in XML -->
             </ul>
             <panner id="OrangePanner">
                 <h2>
@@ -49,19 +36,19 @@
 
             <div class="popular" id="box">
                 <a href="MovieRank.html">
-                    <h2>&#10094; Most Popular Movies </h2>
+                    <h2>Most Popular Movies </h2>
                 </a>
             </div>
 
             <div class="recommended" id="box">
                 <a href="MovieNow.html">
-                    <h2>In Theatres &#11014;&#65038;</h2>
+                    <h2>In Theatres</h2>
                 </a>
             </div>
 
             <div class="comming" id="box">
                 <a href="MovieUpcoming.html">
-                    <h2>Comming Soon &#10095;</h2>
+                    <h2>Comming Soon</h2>
                 </a>
             </div>
 
@@ -70,7 +57,7 @@
         <div class="content">
 
             <div class="reco">
-                <a href="MovieInfo.xhtml"><img class="movieRec" src="resources/movies/lordOfTheRings1.jpg" alt="lordOfTheRings" /></a>
+                <a href="MovieInfo.html"><img class="movieRec" src="resources/movies/lordOfTheRings1.jpg" alt="lordOfTheRings" /></a>
                 <div class="description">
                     <h2>The Lord of the Rings</h2>
                     <p>Regie: Peter Jackson</p>
@@ -84,7 +71,7 @@
             </div>
 
             <div class="reco" id="last">
-                <a href="MovieInfo.xhtml"><img class="movieRec" src="resources/movies/beautyandthebeast.jpg" alt="beauty" /></a>
+                <a href="MovieInfo.html"><img class="movieRec" src="resources/movies/beautyandthebeast.jpg" alt="beauty" /></a>
                 <div class="description">
                     <h2>The Beauty and the Beast</h2>
                     <p>Regie: Bill Condon</p>

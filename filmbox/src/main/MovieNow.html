@@ -1,34 +1,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 <head>
     <title>In Theaters</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="content/css/Basic.css" />
     <link rel="stylesheet" href="content/css/MovieNow.css" />
     <link rel="stylesheet" href="content/css/Movie.css" />
     <script src="content/javascript/Collabse.js"></script>
+    <script src="content/javascript/MovieInfo.js"></script>
 </head>
 
 <body>
     <header>
         <nav>
             <ul id="NavList">
-                <li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
-                <li><a href="index.html">Home</a></li>
-
-                <li class="CollabseMovieNav" onmouseover="showlist()" onmouseout="hidelist()">
-                    <a href="MovieNow.html" class="active">Movies</a>
-                    <div id="movielist">
-                        <a href="MovieRank.html">Popular</a>
-                        <a href="MovieRecommend.html">suggest</a>
-                        <a href="MovieUpcoming.html">Soon..</a>
-                    </div>
-                </li>
-                <li><a href="Announce.html">Announcment</a></li>
-                <li><a href="AboutUs.html">About</a></li>
-                <li><a href="ContactUs.html">Contact</a></li>
-                <li><a href="FAQ.html">FAQ</a></li>
+                <!-- generated in XML -->
             </ul>
             <panner id="OrangePanner">
                 <h2>
@@ -48,19 +36,19 @@
 
             <div class="popular" id="box">
                 <a href="MovieRank.html">
-                    <h2>&#10094; Most Popular Movies </h2>
+                    <h2>Most Popular Movies </h2>
                 </a>
             </div>
 
             <div class="recommended" id="box">
                 <a href="MovieRecommend.html">
-                    <h2>Our Recommondations &#11014;&#65038;</h2>
+                    <h2>Our Recommondations</h2>
                 </a>
             </div>
 
             <div class="comming" id="box">
                 <a href="MovieUpcoming.html">
-                    <h2>Comming Soon &#10095;</h2>
+                    <h2>Comming Soon</h2>
                 </a>
             </div>
 
@@ -70,19 +58,19 @@
             <h1>In Theatres</h1>
             <div class="movies">
                 <div>
-                    <a href="MovieInfo.html"><img class="movie" src="resources/movies/adamsfamily.jpg" alt="adamsfamily" /></a>
+                    <a href="MovieInfo.html" data-id="adamsfamily" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" src="resources/movies/adamsfamily.jpg" alt="adamsfamily" /></a>
                 </div>
                 <div>
-                    <a href="MovieInfo.html"><img class="movie" src="resources/movies/Frozen2.jpg" alt="frozen2" /></a>
+                    <a href="MovieInfo.html" data-id="frozen2" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" src="resources/movies/Frozen2.jpg" alt="frozen2" /></a>
                 </div>
                 <div>
-                    <a href="MovieInfo.html"><img class="movie" src="resources/movies/joker.jpg" alt="joker" /></a>
+                    <a href="MovieInfo.html" data-id="joker" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" src="resources/movies/joker.jpg" alt="joker" /></a>
                 </div>
                 <div>
-                    <a href="MovieInfo.html"><img class="movie" src="resources/movies/jumanjiNext.jpg" alt="jumanji" /></a>
+                    <a href="MovieInfo.html" data-id="jumanji2" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" src="resources/movies/jumanjiNext.jpg" alt="jumanji" /></a>
                 </div>
                 <div>
-                    <a href="MovieInfo.html"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="lastchristmas" /></a>
+                    <a href="MovieInfo.html" data-id="lastchristmas" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="lastchristmas" /></a>
                 </div>
             </div>
         </div>
