@@ -126,7 +126,7 @@ nav li .active {
     right: 0;
     display: grid;
     font-size: x-small;
-    height: min-content;
+    height: auto;
 }
 
 
