@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="content/css/Basic.css" />
     <link rel="stylesheet" href="content/css/Home.css" />
     <script src="content/javascript/Collabse.js"></script>
-    <script src="content/javascript/Navbar.js"></script>
+    <script src="content/javascript/MovieInfo.js"></script>
 </head>
 
 <body>
@@ -35,16 +35,16 @@
                 </a>
                 <div class="movieContainer">
                     <div>
-                        <a href="MovieInfo.html" data-id="The Adams Family"><img class="movie" id="now" src="resources/movies/adamsfamily.jpg" alt="Adams Family" /></a>
+                        <a href="MovieInfo.html" data-id="The Adams Family" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" id="now" src="resources/movies/adamsfamily.jpg" alt="Adams Family" /></a>
                     </div>
                     <div>
-                        <a href="MovieInfo.html" data-id="Frozen 2"><img class="movie" id="now" src="resources/movies/Frozen2.jpg" alt="Frozen 2" /></a>
+                        <a href="MovieInfo.html" data-id="Frozen 2" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" id="now" src="resources/movies/Frozen2.jpg" alt="Frozen 2" /></a>
                     </div>
                     <div>
-                        <a href="MovieInfo.html" data-id="Joker"><img class="movie" id="now" src="resources/movies/joker.jpg" alt="Jumanji" /></a>
+                        <a href="MovieInfo.html" data-id="Joker" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" id="now" src="resources/movies/joker.jpg" alt="Jumanji" /></a>
                     </div>
                     <div>
-                        <a href="MovieInfo.html" data-id="Last Christmas"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="Last Christmas" /></a>
+                        <a href="MovieInfo.html" data-id="Last Christmas" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movie" src="resources/movies/lastChristmas.jpg" alt="Last Christmas" /></a>
                     </div>
                 </div>
             </div>

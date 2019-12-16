@@ -6,9 +6,6 @@ function saveMovie(movie) {
 
 window.addEventListener("load", function (evt) {
 
-    console.log(this.sessionStorage.getItem('movieID'));
-
-    
     var request = new XMLHttpRequest();
 
     request.open("GET", "https://mountainman97.github.io/WebDocuments19-20/filmbox/src/main/content/xml/nav.xml", true);
@@ -40,20 +37,25 @@ function fillInformation2 (file) {
 
     var movie = xmlDoc.getElementsByTagName("Movie");
 
+    console.log(id);
+    console.log(title);
+
     // catch that we only run this function when we are on MovieInfo.html
     if (title === "MovieInfo.html") {
 
         for (var i = 0; i < movie.length; i++) {
             var chosen = movie[i];
 
+            console.log(chosen);
+
             var movieTitle = "", movieRegie = "", movieYear = "", movieURL = "";
             
             var movieProd = "", movieMusic ="", movieRun = "", moviePlot = "";
 
-            console.log(chosen);
-
             // check if clicked Movie was found
             if (chosen.id == id) {
+                console.log(chosen);
+
                 var container = document.getElementsByTagName("main");
 
                 movieTitle = chosen.childNodes[1].textContent;
