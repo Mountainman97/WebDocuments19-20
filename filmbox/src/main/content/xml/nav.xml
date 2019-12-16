@@ -10,22 +10,30 @@
         <Title>Movies</Title>
         <Dest>MovieNow.html</Dest>
         <Drop>
-            <Title>Most Popular</Title>
+            <Title>Popular</Title>
             <Dest>MovieRank.html</Dest>
         </Drop>
         <Drop>
-            <Title>Recommondation</Title>
+            <Title>suggest</Title>
             <Dest>MovieRecommend.html</Dest>
         </Drop>
         <Drop>
-            <Title>Comming Soon</Title>
+            <Title>Soon..</Title>
             <Dest>MovieUpcoming.html</Dest>
         </Drop>
     </Tab>
-    
+
     <Tab>
         <Title>Announcments</Title>
         <Dest>Announce.html</Dest>
+        <Drop>
+            <Title>suggest</Title>
+            <Dest>MovieRecommend.html</Dest>
+        </Drop>
+        <Drop>
+            <Title>Soon..</Title>
+            <Dest>MovieUpcoming.html</Dest>
+        </Drop>
     </Tab>
     <Tab>
         <Title>About</Title>
