@@ -48,7 +48,7 @@ function fillInformation (file) {
 
         var element = document.createElement("div");
         element.className = "ranked";
-        element.innerHTML = '<h2>' + (i+1) + '</h2> <a href="MovieInfo.html"><img class="movie" src="' + movieURL + '" alt="revenant" /></a><div class="description"><h3>' + 
+        element.innerHTML = '<h2>' + (i+1) + '</h2> <a href="MovieInfo.html" data-id="' + movieTitle + '"><img class="movie" src="' + movieURL + '" alt="revenant" /></a><div class="description"><h3>' + 
             movieTitle + '</h3><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p></div>';
 
         console.log(element);
@@ -59,7 +59,7 @@ function fillInformation (file) {
    // console.log(ever);
 
     // iterate thru the best 5 Movies last month
-    for (var i = 5; i < movie.length; i++) {
+    for (var i = 5; i < 10; i++) {
         var m = movie[i].childNodes;
         movieTitle = m[1].textContent;
         movieRegie = m[3].textContent;

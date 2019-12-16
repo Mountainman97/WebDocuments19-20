@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <library>
     <!-- Best Movie ever -->
-    <Movie id="revenant">
+    <Movie id="The Revenant">
         <title>The Revenant</title>
         <regie>Alejandro G. Iñárritu</regie>
         <year>2015</year>
@@ -13,7 +13,7 @@
             ToDo The Revevant
         </plot>
     </Movie>
-    <Movie id="interstellar">
+    <Movie id="Interstellar">
         <title>Interstellar</title>
         <regie>Christopher Nolan</regie>
         <year>2014</year>
@@ -25,7 +25,7 @@
             ToDo Interstellar
         </plot>
     </Movie>
-    <Movie id="avatar">
+    <Movie id="Avatar">
         <title>Avatar</title>
         <regie>James Cameron</regie>
         <year>2009</year>
@@ -37,7 +37,7 @@
             ToDo Avatar
         </plot>
     </Movie>
-    <Movie id="lordoftherings">
+    <Movie id="Lord of The Rings">
         <title>Lord of The Rings</title>
         <regie>Peter Jackson</regie>
         <year>2001</year>
@@ -49,7 +49,7 @@
             ToDo The Lord of the Rings
         </plot>
     </Movie>
-    <Movie id="titanic">
+    <Movie id="Titanic">
         <title>Titanic</title>
         <regie>James Cameron</regie>
         <year>1997</year>
@@ -63,7 +63,7 @@
     </Movie>
 
     <!-- Best Movies last Month -->
-    <Movie id="joker">
+    <Movie id="Joker">
         <title>Joker</title>
         <regie>Todd Phillips</regie>
         <year>2019</year>
@@ -75,7 +75,7 @@
             ToDo Joker
         </plot>
     </Movie>
-    <Movie id="frozen2">
+    <Movie id="Frozen 2">
         <title>Frozen 2</title>
         <regie>Jennifer Lee, Chris Buck</regie>
         <year>2019</year>
@@ -103,7 +103,7 @@
             protector of the Enchanted Forest, who regularly visits Arendelle as peace has been restored.
         </plot>
     </Movie>
-    <Movie id="adamsfamily">
+    <Movie id="The Adams Family">
         <title>The Adams Family</title>
         <regie>Conrad Vernon, Greg Tiernan</regie>
         <year>2019</year>
@@ -115,7 +115,7 @@
             ToDo The Adams Family
         </plot>
     </Movie>
-    <Movie id="lastChristmas">
+    <Movie id="Last Christmas">
         <title>Last Christmas</title>
         <regie>Paul Feig</regie>
         <year>2019</year>
@@ -127,7 +127,7 @@
             ToDo Last Christmas
         </plot>
     </Movie>
-    <Movie id="zombieland2">
+    <Movie id="Zombieland 2">
         <title>Zombieland 2</title>
         <regie>Ruben Fleischer</regie>
         <year>2019</year>
@@ -139,4 +139,116 @@
             ToDO Zombieland2
         </plot>
     </Movie>
+
+    <!-- all other movies -->
+    <Movie id="Jumanji - Next Level">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/jumanjiNext.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Jumanji - Next Level
+        </plot>
+    </Movie>
+    <Movie id="Star Wars 9">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Star Wars 9
+        </plot>
+    </Movie>
+    <Movie id="Star Wars 8">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Star Wars 8
+        </plot>
+    </Movie>
+    <Movie id="James Bond">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO James Bond
+        </plot>
+    </Movie>
+    <Movie id="Bad Boys">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Bad Boys
+        </plot>
+    </Movie>
+    <Movie id="Birds Of Prey">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Birds Of Prey
+        </plot>
+    </Movie>
+    <Movie id="Black Widow">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Black Widow
+        </plot>
+    </Movie>
+    <Movie id="Cats">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Cats
+        </plot>
+    </Movie>
+    <Movie id="The Beauty and the Beast">
+        <title>Zombieland 2</title>
+        <regie>Ruben Fleischer</regie>
+        <year>2019</year>
+        <url>resources/movies/Zombieland.jpg</url>
+        <producer>Peter Del Vecho</producer>
+        <music>Robert Lopez, Kristen Anderson-Lopez, Christophe Beck</music>
+        <runtime>103</runtime>
+        <plot>
+            ToDO Beauty and the Beast
+        </plot>
+    </Movie>
+
+
 </library>
