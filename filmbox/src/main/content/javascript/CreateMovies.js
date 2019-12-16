@@ -23,6 +23,11 @@ window.addEventListener("load", function (evt) {
     };
 });
 
+function saveMovie(movie) {
+    // passing the clicked id to next page
+    sessionStorage.setItem('movieID', movie);
+}
+
 function fillInformation (file) {
 
     var xmlDoc = file.responseXML;
@@ -38,15 +43,26 @@ function fillInformation (file) {
         movieRegie = m[3].textContent;
         movieYear = m[5].textContent;
         movieURL = m[7].textContent;
+        var div = document.createElement("div");
+        div.className = "ranked";
+        div.innerHTML = "<h2>" + (j-4) + "</h2>";
 
-        var element = document.createElement("div");
-        element.className = "ranked";
-        element.innerHTML = "<h2>" + (i+1) + "</h2> <a href='MovieInfo.html' data-id='" + movieTitle + "' onclick='saveMovie(this.getAttribute('data-id'))'><img class='movie' src='" + movieURL + "' alt='revenant' /></a><div class='description'><h3>" + 
-            movieTitle + "</h3><p>Regie:" + movieRegie +"</p><p>Year:" + movieYear + "</p></div>";
+        var a = document.createElement("a");
+        a.setAttribute("href", "MovieInfo.html");
+        a.setAttribute("data-id", movieTitle);
+        a.setAttribute("onclick", "saveMovie(this.getAttribute('data-id'))")
+        a.innerHTML = '<img class="movie" src="' + movieURL + '" alt="' + movieTitle + '" />';
 
-        console.log(element);
+        var des = document.createElement("div");
+        des.className = "description";
+        des.innerHTML = '<h2>' + movieTitle + '</h2><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p>';
 
-        document.getElementsByClassName("ever")[0].appendChild(element);
+        div.appendChild(a);
+        div.appendChild(des);
+
+        console.log(div);
+
+        document.getElementsByClassName("ever")[0].appendChild(div);
     }
 
    // console.log(ever);
@@ -72,7 +88,7 @@ function fillInformation (file) {
 
         var des = document.createElement("div");
         des.className = "description";
-        des.innerHTML = '<h3>' + movieTitle + '</h3><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p>';
+        des.innerHTML = '<h2>' + movieTitle + '</h2><p>Regie:' + movieRegie +'</p><p>Year:' + movieYear +'</p>';
 
         div.appendChild(a);
         div.appendChild(des);

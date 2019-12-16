@@ -91,6 +91,8 @@ function fillInformation2 (file) {
 
                 document.getElementById("main").appendChild(img);
                 document.getElementById("main").appendChild(text);
+
+                document.getElementById("MovieTitle").innerHTML = movieTitle;
             }
         }
 

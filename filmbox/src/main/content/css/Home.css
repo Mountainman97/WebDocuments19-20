@@ -90,6 +90,19 @@ main {
     background-size: cover;
 }
 
+.movie:hover {
+    display: block;
+    width: 300px;
+    height: auto;
+    padding: 0%;
+    text-decoration: none;
+    text-align: center;
+    box-shadow: 5px 5px 10px #ff8868;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
 .title a {
     text-decoration: none;
     text-align: center;
