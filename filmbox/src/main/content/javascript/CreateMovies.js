@@ -45,7 +45,7 @@ function fillInformation (file) {
         movieURL = m[7].textContent;
         var div = document.createElement("div");
         div.className = "ranked";
-        div.innerHTML = "<h2>" + (j-4) + "</h2>";
+        div.innerHTML = "<h2>" + (i+1) + "</h2>";
 
         var a = document.createElement("a");
         a.setAttribute("href", "MovieInfo.html");
