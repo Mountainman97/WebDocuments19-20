@@ -171,7 +171,8 @@ nav li .active {
         margin-top: 0px;
     }
     .fixedhead {
-        display: none;
+        display: block;
+        position: static;
     }
 }
 

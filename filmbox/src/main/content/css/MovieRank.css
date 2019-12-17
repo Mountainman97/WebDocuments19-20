@@ -48,10 +48,17 @@
     text-shadow: 2px 2px 1px #222;
 }
 
+
 /**For Mobile */
 
 @media only screen and (max-width: 750px) {
     #categorie {
         min-width: 100%;
+    }
+    .ranked h2 {
+        font-size: large;
+    }
+    #categorie h1 {
+        font-size: larger;
     }
 }
