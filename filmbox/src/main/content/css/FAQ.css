@@ -40,3 +40,12 @@
         padding-right: 10px;
     }
 }
+
+
+/*fixing footer spacing*/
+
+#page-container {
+    position: relative;
+    min-height: 20vh;
+    /*heigth of the footer away from the main */
+}

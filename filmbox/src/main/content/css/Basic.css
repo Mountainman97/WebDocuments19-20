@@ -171,7 +171,8 @@ nav li .active {
         margin-top: 0px;
     }
     .fixedhead {
-        display: none;
+        display: block;
+        position: static;
     }
 }
 
@@ -181,17 +182,13 @@ Footer
 */
 
 .basicFooter {
-    margin-top: 1%;
     background-color: #222;
     width: 100%;
-    height: 8%;
-    right: 0;
-    left: 0;
-    bottom: 0%;
-    position: relative;
+    height: 4.5rem;
     text-align: center;
+    bottom: 0;
+    position: absolute;
     padding-top: 10px;
-    margin-top: 13%;
 }
 
 .copyRights {
@@ -210,6 +207,12 @@ Footer
 
 .socialMedia_Footer {
     padding: 0%;
+}
+
+#page-container {
+    position: relative;
+    min-height: 30vh;
+    /*heigth of the footer away from the main */
 }
 
 
