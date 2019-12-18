@@ -1,55 +1,68 @@
-    #socialmediaList {
-        list-style-type: none;
-    }
-    
+#socialmediaList {
+    list-style-type: none;
+}
+
+.column {
+    float: left;
+    width: 12%;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #333;
+}
+
+.row {
+    box-sizing: border-box;
+    padding: inherit;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout */
+
+@media screen and (max-width: 600px) {
     .column {
-        float: left;
-        width: 12%;
-        padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-bottom: 10%;
-        text-align: center;
-        color: #333;
+        width: 90%;
+        padding: 10%;
     }
-    
-    .row {
-        box-sizing: border-box;
-        padding: inherit;
+}
+
+.ContactiIcons {
+    height: 2.2em;
+    width: 2.2em;
+    margin-bottom: 0;
+}
+
+p {
+    text-align: center;
+    text-decoration: none;
+}
+
+.findeUsOnSocialMendia {
+    float: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .column {
+        padding: 15px;
     }
-    /* Clear floats after the columns */
-    
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-    /* Responsive layout */
-    
-    @media screen and (max-width: 600px) {
-        .column {
-            width: 90%;
-            padding: 10%
-        }
-    }
-    
-    .ContactiIcons {
-        height: 2.2em;
-        width: 2.2em;
-        margin-bottom: 0;
-    }
-    
-    p {
-        text-align: center;
-        text-decoration: none;
-    }
-    
-    .findeUsOnSocialMendia {
-        float: center;
-    }
-    
-    @media only screen and (max-width: 750px) {
-        .column {
-            padding: 15px;
-        }
-    }
+}
+
+
+/*fixing footer spacing*/
+
+#page-container {
+    position: relative;
+    min-height: 30vh;
+    /*heigth of the footer away from the main */
+}
