@@ -17,8 +17,10 @@
 - Contact US
 - FAQ
 - Responsive 
-- fixed adds 
-- Orange panner 
+- fixed panners 
+- Orange panner
+- trailer
+
 
 ### Notation 
 our issues are posted on the Repo from the other Gruppe. 

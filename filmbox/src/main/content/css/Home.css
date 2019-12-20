@@ -137,19 +137,64 @@ main {
     .outNow a {
         font-size: small;
     }
+    /*Trailer */
+    .column {
+        width: auto;
+        margin: 10px;
+        float: none;
+        text-align: center;
+    }
+    .columnTwo {
+        width: auto;
+    }
 }
 
+
+/*Trailer */
+
 .trailer {
-    background-color: black;
+    background-color: rgb(195, 195, 195);
+    margin-bottom: 40px;
     text-align: center;
-    margin-top: 20px;
     height: auto;
     width: 100%;
-    color: #ff8868;
+    text-align: center;
+    box-shadow: 6px 5px 10px #555;
+    display: flex;
 }
 
 .trailer video {
     height: auto;
-    width: 50%;
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.columnTwo {
+    text-shadow: 2px 2px 1px #222;
+    float: none;
+    width: auto;
     padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.columnTwo p {
+    text-shadow: none;
+    color: #333;
+}
+
+.columnTwo h1 {
+    color: #ff8868;
+}
+
+.row {
+    box-sizing: border-box;
+    padding: inherit;
+    display: table-row;
 }
