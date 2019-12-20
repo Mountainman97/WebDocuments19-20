@@ -147,6 +147,10 @@ main {
     .columnTwo {
         width: auto;
     }
+    .trailer video {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 
@@ -166,6 +170,9 @@ main {
 .trailer video {
     height: auto;
     width: 100%;
+    margin-left: 25px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 .column {

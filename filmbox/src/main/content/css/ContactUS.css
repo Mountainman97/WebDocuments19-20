@@ -63,6 +63,6 @@ p {
 
 #page-container {
     position: relative;
-    min-height: 30vh;
+    min-height: 75vh;
     /*heigth of the footer away from the main */
 }

@@ -29,6 +29,7 @@
 
 .FAQcontainer {
     min-height: 62vh;
+    font-size: large;
 }
 
 
@@ -39,6 +40,9 @@
         padding-left: 30px;
         padding-right: 10px;
     }
+    .FAQcontainer {
+        font-size: xx-large;
+    }
 }
 
 
@@ -46,6 +50,6 @@
 
 #page-container {
     position: relative;
-    min-height: 20vh;
+    min-height: 35vh;
     /*heigth of the footer away from the main */
 }
