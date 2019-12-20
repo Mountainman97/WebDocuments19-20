@@ -138,3 +138,18 @@ main {
         font-size: small;
     }
 }
+
+.trailer {
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+    height: auto;
+    width: 100%;
+    color: #ff8868;
+}
+
+.trailer video {
+    height: auto;
+    width: 50%;
+    padding: 20px;
+}
