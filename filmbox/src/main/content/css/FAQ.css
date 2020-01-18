@@ -11,10 +11,12 @@
 
 .frage {
     background-color: #333;
-    color: white;
     cursor: pointer;
     display: inline-block;
-    color: #fff;
+    color: #ff8868;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0px 0px 0.5px #f3f3f0;
     text-align: left;
     width: 100%;
 }

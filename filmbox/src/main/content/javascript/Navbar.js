@@ -22,7 +22,7 @@ function fillInformation(file) {
     var tab = xmlDoc.getElementsByTagName("Tab");
 
     var element = document.createElement("li");
-    element.innerHTML = '<img class="logo" src="resources/filmboxLogo.svg" alt="logo" />';
+    element.innerHTML = '<img class="logo" src="resources/filmboxLogo.svg" height="50" width="auto" alt="logo" />';
     document.getElementById("NavList").appendChild(element);
 
     for (var i = 0; i < tab.length; i++) {

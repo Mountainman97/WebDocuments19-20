@@ -1,10 +1,9 @@
-
 function saveMovie(movie) {
     // passing the clicked id to next page
     sessionStorage.setItem('movieID', movie);
 }
 
-window.addEventListener("load", function (evt) {
+window.addEventListener("load", function(evt) {
 
     var request = new XMLHttpRequest();
 
@@ -12,9 +11,9 @@ window.addEventListener("load", function (evt) {
     request.send();
 
     request.onreadystatechange = function() {
-		if (request.readyState == 4 && request.status == 200) {
-			fillInformation(request);
-		}
+        if (request.readyState == 4 && request.status == 200) {
+            fillInformation(request);
+        }
     };
 
     var request2 = new XMLHttpRequest();
@@ -23,13 +22,13 @@ window.addEventListener("load", function (evt) {
     request2.send();
 
     request2.onreadystatechange = function() {
-		if (request2.readyState == 4 && request2.status == 200) {
-			fillInformation2(request2);
-		}
+        if (request2.readyState == 4 && request2.status == 200) {
+            fillInformation2(request2);
+        }
     };
 });
 
-function fillInformation2 (file) {
+function fillInformation2(file) {
 
     xmlDoc = file.responseXML;
     var title = (location.pathname.substring(location.pathname.lastIndexOf("/") + 1));
@@ -48,9 +47,15 @@ function fillInformation2 (file) {
 
             console.log(chosen);
 
-            var movieTitle = "", movieRegie = "", movieYear = "", movieURL = "";
-            
-            var movieProd = "", movieMusic ="", movieRun = "", moviePlot = "";
+            var movieTitle = "",
+                movieRegie = "",
+                movieYear = "",
+                movieURL = "";
+
+            var movieProd = "",
+                movieMusic = "",
+                movieRun = "",
+                moviePlot = "";
 
             // check if clicked Movie was found
             if (chosen.id == id) {
@@ -70,7 +75,7 @@ function fillInformation2 (file) {
                 // <div class="img"> ... </div>
                 var img = document.createElement("div");
                 img.className = "img";
-                img.innerHTML = '<img class="movieimg" src="' + movieURL + '" alt="..." />';
+                img.innerHTML = '<img class="movieimg" src="' + movieURL + '" alt="..." height="auto" width="300"/>';
 
                 console.log(img);
 
@@ -78,12 +83,12 @@ function fillInformation2 (file) {
                 text.className = "text";
 
                 text.innerHTML = '<div class="information"><div><p><strong>Year:</strong></p>' +
-                                '<p><strong>Directed:</strong></p><p><strong>Producer:</strong></p>' +
-                                '<p><strong>Music:</strong></p><p><strong>Running time:</strong></p>' +
-                                '</div><div class="right"><p>'+ movieYear + '</p><p>'+ movieRegie + '</p>' +
-                                '<p>'+ movieProd + '</p><p>'+ movieMusic + '</p><p>'+ movieRun + ' minutes' +
-                                '</p></div></div><div class="description"><h2>Plot</h2><p>' + moviePlot +
-                                '</p></div>';
+                    '<p><strong>Directed:</strong></p><p><strong>Producer:</strong></p>' +
+                    '<p><strong>Music:</strong></p><p><strong>Running time:</strong></p>' +
+                    '</div><div class="right"><p>' + movieYear + '</p><p>' + movieRegie + '</p>' +
+                    '<p>' + movieProd + '</p><p>' + movieMusic + '</p><p>' + movieRun + ' minutes' +
+                    '</p></div></div><div class="description"><h2>Plot</h2><p>' + moviePlot +
+                    '</p></div>';
 
                 console.log(text);
 
@@ -101,7 +106,7 @@ function fillInformation2 (file) {
 
 }
 
-function fillInformation (file) {
+function fillInformation(file) {
 
     var xmlDoc = file.responseXML;
     var title = (location.pathname.substring(location.pathname.lastIndexOf("/") + 1));
@@ -114,7 +119,9 @@ function fillInformation (file) {
 
 
     for (var i = 0; i < tab.length; i++) {
-        var tabTitle = "", tabDest = "", tabClass = "";
+        var tabTitle = "",
+            tabDest = "",
+            tabClass = "";
         var t = tab[i].childNodes;
 
         tabTitle = t[1].textContent;
@@ -124,7 +131,7 @@ function fillInformation (file) {
             tabClass = "active";
         }
 
-        var element = document.createElement("li"); 
+        var element = document.createElement("li");
 
         if (t.length > 5) {
             var dropElement = "";
@@ -133,23 +140,23 @@ function fillInformation (file) {
                     var tempTitle = t[j].childNodes[1].textContent;
                     var tempDest = t[j].childNodes[3].textContent;
 
-                    dropElement += '<a href="' + tempDest + '">' +  tempTitle + '</a>';
+                    dropElement += '<a href="' + tempDest + '">' + tempTitle + '</a>';
                 }
             }
 
 
             element.className = "CollabseMovieNav";
-            element.setAttribute("onmouseover" ,"showlist()");
-            element.setAttribute("onmouseout" ,"hidelist()");
+            element.setAttribute("onmouseover", "showlist()");
+            element.setAttribute("onmouseout", "hidelist()");
             element.innerHTML = '<a class="' + tabClass + '" href="' + tabDest + '">' + tabTitle + '</a>' +
-                                '<div id="movielist">' + dropElement + '</div>';
+                '<div id="movielist">' + dropElement + '</div>';
 
             document.getElementById("NavList").appendChild(element);
         } else {
-            element.innerHTML = '<a class="' + tabClass + '" href="' + tabDest + 
-                                '">' + tabTitle + '</a></li>';
+            element.innerHTML = '<a class="' + tabClass + '" href="' + tabDest +
+                '">' + tabTitle + '</a></li>';
             document.getElementById("NavList").appendChild(element);
         }
-        
+
     }
 };

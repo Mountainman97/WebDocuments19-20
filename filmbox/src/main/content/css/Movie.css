@@ -20,9 +20,10 @@ main {
 }
 
 #box a {
-    color: #f9f9f9;
+    color: #ff8868;
     text-decoration: none;
     text-align: center;
+    text-shadow: 2px 2px 1px #222;
 }
 
 #box a:hover,
