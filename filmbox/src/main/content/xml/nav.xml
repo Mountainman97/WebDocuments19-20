@@ -1,60 +1,119 @@
 <?xml version="1.0"?>
 <library>
-
-    <Tab>
-        <Title>Home</Title>
-        <Dest>index.html</Dest>
-    </Tab>
-
-    <Tab>
-        <Title>Movies</Title>
-        <Dest>MovieNow.html</Dest>
-        <Drop>
-            <Title>Popular</Title>
-            <Dest>MovieRank.html</Dest>
-        </Drop>
-        <Drop>
-            <Title>suggest</Title>
-            <Dest>MovieRecommend.html</Dest>
-        </Drop>
-        <Drop>
-            <Title>Soon..</Title>
-            <Dest>MovieUpcoming.html</Dest>
-        </Drop>
-    </Tab>
-
-    <Tab>
-        <Title>Announcments</Title>
-        <Dest>Announce.html</Dest>
-    </Tab>
-    <Tab>
-        <Title>About</Title>
-        <Dest>AboutUs.html</Dest>
-    </Tab>
-    <Tab>
-        <Title>Contact</Title>
-        <Dest>ContactUs.html</Dest>
-    </Tab>
-    <Tab>
-        <Title>FAQ</Title>
-        <Dest>FAQ.html</Dest>
-    </Tab>
-
+	<Tab>
+		<Title>
+			Home
+		</Title>
+		<Dest>
+			index.html
+		</Dest>
+		<accesskey>
+			h
+		</accesskey>
+	</Tab>
+	<Tab>
+		<Title>
+			Movies
+		</Title>
+		<Dest>
+			MovieNow.html
+		</Dest>
+		<accesskey>
+			m
+		</accesskey>
+		<Drop>
+			<Title>
+				Popular
+			</Title>
+			<Dest>
+				MovieRank.html
+			</Dest>
+			<accesskey>
+				p
+			</accesskey>
+		</Drop>
+		<Drop>
+			<Title>
+				suggest
+			</Title>
+			<Dest>
+				MovieRecommend.html
+			</Dest>
+			<accesskey>
+				s
+			</accesskey>
+		</Drop>
+		<Drop>
+			<Title>
+				Soon..
+			</Title>
+			<Dest>
+				MovieUpcoming.html
+			</Dest>
+			<accesskey>
+				o
+			</accesskey>
+		</Drop>
+	</Tab>
+	<Tab>
+		<Title>
+			Announcments
+		</Title>
+		<Dest>
+			Announce.html
+		</Dest>
+		<accesskey>
+			c
+		</accesskey>
+	</Tab>
+	<Tab>
+		<Title>
+			About
+		</Title>
+		<Dest>
+			AboutUs.html
+		</Dest>
+		<accesskey>
+			a
+		</accesskey>
+	</Tab>
+	<Tab>
+		<Title>
+			Contact
+		</Title>
+		<Dest>
+			ContactUs.html
+		</Dest>
+		<accesskey>
+			k
+		</accesskey>
+	</Tab>
+	<Tab>
+		<Title>
+			FAQ
+		</Title>
+		<Dest>
+			FAQ.html
+		</Dest>
+		<accesskey>
+			f
+		</accesskey>
+	</Tab>
 </library>
-
-<!-- Original Nav for html
-    <li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
-    <li><a href="index.html">Home</a></li>
-    <li class="CollabseMovieNav" onmouseover="showlist()" onmouseout="hidelist()">
-        <a href="MovieNow.html" class="active">Movies</a>
-        <div id="movielist">
-            <a href="MovieRank.html" class="activeSecound">Popular</a>
-            <a href="MovieRecommend.html">suggest</a>
-            <a href="MovieUpcoming.html">Soon..</a>
-        </div>
-    </li>
-    <li><a href="Announce.html">Announcment</a></li>
-    <li><a href="AboutUs.html">About</a></li>
-    <li><a href="ContactUs.html">Contact</a></li>
-    <li><a href="FAQ.html">FAQ</a></li>
+<!--
+Original Nav for html
+<li><img class="logo" src="resources/filmboxLogo.svg" alt="logo" /></li>
+<li><a href="index.html">Home</a></li>
+<li class="CollabseMovieNav" onmouseover="showlist()" onmouseout="hidelist()">
+<a href="MovieNow.html" class="active">Movies</a>
+<div id="movielist">
+<a href="MovieRank.html" class="activeSecound">Popular</a>
+<a href="MovieRecommend.html">suggest</a>
+<a href="MovieUpcoming.html">Soon..</a>
+</div>
+</li>
+<li><a href="Announce.html">Announcment</a></li>
+<li><a href="AboutUs.html">About</a></li>
+<li><a href="ContactUs.html">Contact</a></li>
+<li><a href="FAQ.html">FAQ</a></li>
 -->
