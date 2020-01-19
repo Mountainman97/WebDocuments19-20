@@ -35,19 +35,19 @@
         <div class="fixedhead">
 
             <div class="popular" id="box">
-                <a href="MovieRank.html">
+                <a href="MovieRank.html" tabindex="9">
                     <h2>Most Popular Movies </h2>
                 </a>
             </div>
 
             <div class="recommended" id="box">
-                <a href="MovieNow.html">
+                <a href="MovieNow.html" tabindex="10">
                     <h2>In Theatres</h2>
                 </a>
             </div>
 
             <div class="comming" id="box">
-                <a href="MovieUpcoming.html">
+                <a href="MovieUpcoming.html" tabindex="11">
                     <h2>Comming Soon</h2>
                 </a>
             </div>
@@ -57,7 +57,7 @@
         <div class="content">
 
             <div class="reco">
-                <a href="MovieInfo.html" data-id="Lord of The Rings" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movieRec" src="resources/movies/lordOfTheRings1.jpg" alt="lordOfTheRings" /></a>
+                <a href="MovieInfo.html" tabindex="12" data-id="Lord of The Rings" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movieRec" src="resources/movies/lordOfTheRings1.jpg" alt="lordOfTheRings" /></a>
                 <div class="description">
                     <h2>The Lord of the Rings</h2>
                     <p>Regie: Peter Jackson</p>
@@ -71,7 +71,7 @@
             </div>
 
             <div class="reco" id="last">
-                <a href="MovieInfo.html" data-id="The Beauty and the Beast" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movieRec" src="resources/movies/beautyandthebeast.jpg" alt="beauty" /></a>
+                <a href="MovieInfo.html" tabindex="13" data-id="The Beauty and the Beast" onclick="saveMovie(this.getAttribute('data-id'))"><img class="movieRec" src="resources/movies/beautyandthebeast.jpg" alt="beauty" /></a>
                 <div class="description">
                     <h2>The Beauty and the Beast</h2>
                     <p>Regie: Bill Condon</p>
@@ -91,14 +91,14 @@
     <div id="page-container">
         <footer class="basicFooter">
             <div class="socialMedia_Footer">
-                <a href="https://www.instagram.com/?hl=de" accesskey="i">
+                <a href="https://www.instagram.com/?hl=de" tabindex="14" accesskey="i">
                     <img src="resources/icons/icons8-instagram_new.png" alt="instagram" height="50" width="50" /></a>
-                <a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7" accesskey="g">
+                <a href="https://goo.gl/maps/BgsCu1gDsLRqUV3x7" tabindex="15" accesskey="g">
                     <img src="resources/icons/icons8-marker.png" alt="adress" height="50" width="50" /></a>
-                <a href="https://de-de.facebook.com/" accesskey="w">
+                <a href="https://de-de.facebook.com/" tabindex="16" accesskey="w">
                     <img src="resources/icons/icons8-facebook_filled.png" alt="facebook" height="50" width="50" />
                 </a>
-                <p class="copyRights"> © 2019 Copyright: <a herf="index.html" id="owner"><strong>FilmBox</strong></a></p>
+                <p class="copyRights"> © 2019 Copyright: <a href="index.html" tabindex="17" id="owner"><strong>FilmBox</strong></a></p>
             </div>
         </footer>
     </div>
