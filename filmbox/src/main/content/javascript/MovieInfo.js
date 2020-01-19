@@ -50,7 +50,8 @@ function fillInformation2(file) {
             var movieTitle = "",
                 movieRegie = "",
                 movieYear = "",
-                movieURL = "";
+                movieURL = "",
+                movieAlt = "";
 
             var movieProd = "",
                 movieMusic = "",
@@ -71,11 +72,12 @@ function fillInformation2(file) {
                 movieMusic = chosen.childNodes[11].textContent;
                 movieRun = chosen.childNodes[13].textContent;
                 moviePlot = chosen.childNodes[15].textContent;
+                movieAlt = chosen.childNodes[17].textContent;
 
                 // <div class="img"> ... </div>
                 var img = document.createElement("div");
                 img.className = "img";
-                img.innerHTML = '<img class="movieimg" src="' + movieURL + '" alt="..." height="auto" width="300"/>';
+                img.innerHTML = '<img class="movieimg" src="' + movieURL + '" alt="' + movieAlt + '" height="auto" width="300"/>';
 
                 console.log(img);
 
