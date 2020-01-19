@@ -10,6 +10,8 @@
   - Movie Upcomming
   - Movie Info
 - Anouncment Page
+- added JavaScript for generating Navigationbar
+- added JavaScript for generating Moviecontent
 
 ### Badr Aldin Alzein:
 - Header | Footer | Navigation  
