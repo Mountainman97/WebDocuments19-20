@@ -21,6 +21,7 @@ function fillInformation(file) {
     element.innerHTML = '<img class="logo" src="resources/filmboxLogo.svg" height="50" width="auto" alt="logo" />';
     document.getElementById("NavList").appendChild(element);
 
+
     for (var i = 0; i < tab.length; i++) {
         var tabTitle = "",
             tabDest = "",
@@ -45,7 +46,7 @@ function fillInformation(file) {
                     var tempTitle = t[j].childNodes[1].textContent;
                     var tempDest = t[j].childNodes[3].textContent;
                     var tempKey = extractLetter(t[j].childNodes[5].textContent);
-                    dropElement += '<a href="' + tempDest + '"  accesskey="' + tempKey + '" >' + tempTitle + '</a>';
+                    dropElement += '<a href="' + tempDest + '"  accesskey="' + tempKey + '">' + tempTitle + '</a>';
                 }
             }
 
