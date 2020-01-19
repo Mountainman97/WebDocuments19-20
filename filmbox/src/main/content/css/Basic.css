@@ -72,6 +72,8 @@ nav li a:hover:not(.active) {
 
 nav li .active {
     background-color: #ff8868;
+    color: #222;
+    text-shadow: none;
 }
 
 .activeSecound {
