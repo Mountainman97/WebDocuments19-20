@@ -50,12 +50,14 @@ body {
 }
 
 .breadcrumb ul {
-    list-style-type: symbols("&#8674;");
+    list-style-type: none;
+    width: 100%;
 }
 
 .breadcrumb ul li {
     display: inline-block;
     font-size: medium;
+    padding-left: 0.2%;
 }
 
 #CollabseMovieNav:hover .movielist {
