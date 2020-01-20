@@ -6,6 +6,17 @@
 2. set styleSheet of the Navigationbar
 */
 
+
+/*scalable Text*/
+
+html {
+    font-size: 100%;
+}
+
+h1 {
+    font-size: 2em;
+}
+
 body {
     margin: 0;
     background-color: #f3f3f0;
@@ -34,19 +45,21 @@ body {
 }
 
 .breadcrumb {
+    background-color: #ff8868;
     display: flex;
     width: 100%;
     margin-bottom: 1%;
-    margin-top: 1%;
+    margin-top: 0;
     text-align: left;
     color: #222;
+    margin-bottom: 1em;
 }
 
 .breadcrumb a {
     margin-top: 1%;
     font-size: medium;
     text-decoration: none;
-    color: #ff8868;
+    color: white;
 }
 
 .breadcrumb ul {
@@ -80,13 +93,12 @@ nav li {
 }
 
 nav li a {
+    font-weight: bold;
     padding: 1.5em;
     height: 1em;
     display: inline-block;
     color: #ff8868;
     text-decoration: none;
-    text-align: center;
-    text-shadow: 0px 0px 0.5px #f3f3f0;
     text-align: center;
     text-decoration: none;
 }
@@ -96,6 +108,7 @@ nav li a:hover:not(.active) {
 }
 
 nav li .active {
+    font-weight: bold;
     background-color: #ff8868;
     color: #222;
     text-shadow: none;
