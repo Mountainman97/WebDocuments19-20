@@ -9,11 +9,16 @@
     color: #333;
 }
 
+.antwort a {
+    color: #ff8868;
+    text-decoration: none;
+}
+
 .frage {
-    background-color: #333;
+    background-color: rgb(195, 195, 195);
     cursor: pointer;
     display: inline-block;
-    color: #ff8868;
+    color: #333;
     text-decoration: none;
     text-align: center;
     text-shadow: 0px 0px 0.5px #f3f3f0;
@@ -27,6 +32,7 @@
 
 .frage:hover {
     background-color: #555;
+    color: #ff8868;
 }
 
 .FAQcontainer {

@@ -33,6 +33,31 @@ body {
     text-align: left;
 }
 
+.breadcrumb {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    text-align: left;
+    color: #222;
+}
+
+.breadcrumb a {
+    margin-top: 1%;
+    font-size: medium;
+    text-decoration: none;
+    color: #ff8868;
+}
+
+.breadcrumb ul {
+    list-style-type: symbols("&#8674;");
+}
+
+.breadcrumb ul li {
+    display: inline-block;
+    font-size: medium;
+}
+
 #CollabseMovieNav:hover .movielist {
     display: block;
 }
@@ -181,7 +206,7 @@ nav li .active {
     }
     #page-container {
         position: relative;
-        min-height: 100vh;
+        min-height: 50vh;
         /*heigth of the footer away from the main */
     }
 }

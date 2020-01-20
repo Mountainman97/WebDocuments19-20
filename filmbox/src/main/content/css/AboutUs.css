@@ -25,9 +25,14 @@
             font-size: larger;
             text-align: center;
             padding-bottom: 19%;
+            /*padding-left: 10%;
+            padding-right: 10%;*/
+            padding-top: 0%;
+        }
+
+        .AboutUsContainer #aboutSec {
             padding-left: 10%;
             padding-right: 10%;
-            padding-top: 4%;
         }
         
         p {
