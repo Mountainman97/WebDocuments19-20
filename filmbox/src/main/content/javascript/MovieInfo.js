@@ -44,11 +44,6 @@ function fillInformation2(file) {
     // catch that we only run this function when we are on MovieInfo.html
     if (title === "MovieInfo.html") {
 
-
-        
-
-        
-
         for (var i = 0; i < movie.length; i++) {
             var chosen = movie[i];
 
@@ -112,32 +107,42 @@ function fillInformation2(file) {
                 next.innerHTML = "<strong><a href='index.html'> Home </a></strong>";
                 list.appendChild(next);
 
-                var next = document.createElement("li");
-                next.innerHTML = "&#8674;";
-                list.appendChild(next);
+                switch (last) {
+                    case "Our Recommendations":
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
 
-                var next = document.createElement("li");
-                next.innerHTML = "<strong><a href='MovieNow.html'> Movies </a></strong>";
-                list.appendChild(next);
-                
-                if (last == "Our Recommendations") {
-                    var next = document.createElement("li");
-                    next.innerHTML = " &#8674; ";
-                    list.appendChild(next);
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong><a href='MovieNow.html'> Movies </a></strong>";
+                        list.appendChild(next);
 
-                    var next = document.createElement("li");
-                    next.innerHTML = "<strong><a href='MovieRecommend.html'> Our Recommendations </a></strong>";
-                    list.appendChild(next);
-                    
-                    var next = document.createElement("li");
-                    next.innerHTML = "&#8674;";
-                    list.appendChild(next);
+                        var next = document.createElement("li");
+                        next.innerHTML = " &#8674; ";
+                        list.appendChild(next);
 
-                    var next = document.createElement("li");
-                    next.innerHTML = "<strong> " + movieTitle + " </strong>";
-                    list.appendChild(next);
-                } else {
-                    if (last == "Comming Soon") {
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong><a href='MovieRecommend.html'> Our Recommendations </a></strong>";
+                        list.appendChild(next);
+                        
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
+
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong> " + movieTitle + " </strong>";
+                        list.appendChild(next);
+
+                        break;
+                    case "Comming Soon":
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
+
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong><a href='MovieNow.html'> Movies </a></strong>";
+                        list.appendChild(next);
+
                         var next = document.createElement("li");
                         next.innerHTML = "&#8674;";
                         list.appendChild(next);
@@ -153,42 +158,70 @@ function fillInformation2(file) {
                         var next = document.createElement("li");
                         next.innerHTML = "<strong> " + movieTitle + " </strong>";
                         list.appendChild(next);
-                    } else {
-                        if (last == "In Theatres") {
-                            var next = document.createElement("li");
-                            next.innerHTML = "&#8674;";
-                            list.appendChild(next);
 
-                            var next = document.createElement("li");
-                            next.innerHTML = "<strong><a href='MovieNow.html'> In Theatres </a></strong>";
-                            list.appendChild(next);
+                        break;
+                    case "In Theatres":
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
 
-                            var next = document.createElement("li");
-                            next.innerHTML = "&#8674;";
-                            list.appendChild(next);
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong><a href='MovieNow.html'> Movies </a></strong>";
+                        list.appendChild(next);
 
-                            var next = document.createElement("li");
-                            next.innerHTML = "<strong> " + movieTitle + " </strong>";
-                            list.appendChild(next);
-                        } else {
-                            if (last == "Ranked")
-                            var next = document.createElement("li");
-                            next.innerHTML = "&#8674;";
-                            list.appendChild(next);
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
 
-                            var next = document.createElement("li");
-                            next.innerHTML = "<strong><a href='MovieNow.html'> Most popular Movies </a></strong>";
-                            list.appendChild(next);
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong><a href='MovieNow.html'> In Theatres </a></strong>";
+                        list.appendChild(next);
 
-                            var next = document.createElement("li");
-                            next.innerHTML = "&#8674;";
-                            list.appendChild(next);
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
 
-                            var next = document.createElement("li");
-                            next.innerHTML = "<strong> " + movieTitle + " </strong>";
-                            list.appendChild(next);
-                        }
-                    }
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong> " + movieTitle + " </strong>";
+                        list.appendChild(next);
+
+                        break;
+                    case "Ranked":
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
+
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong><a href='MovieNow.html'> Movies </a></strong>";
+                        list.appendChild(next);
+
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
+
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong><a href='MovieNow.html'> Most popular Movies </a></strong>";
+                        list.appendChild(next);
+
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
+
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong> " + movieTitle + " </strong>";
+                        list.appendChild(next);
+
+                        break;
+                    case "Home":
+                        var next = document.createElement("li");
+                        next.innerHTML = "&#8674;";
+                        list.appendChild(next);
+
+                        var next = document.createElement("li");
+                        next.innerHTML = "<strong> " + movieTitle + " </strong>";
+                        list.appendChild(next);
+                        break;
+                    default: break;
                 }
 
                 bread.appendChild(list);
