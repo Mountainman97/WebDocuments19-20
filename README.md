@@ -30,7 +30,7 @@ our issues are posted on the Repo from the other Gruppe.
 https://github.com/minaleebtu/webAssignment2/issues
 
 ### shortCuts
--for Pages 
+for Pages 
  - "h" index.html 
  - "a" AboutUS.html 
  - "c" ContactUs.html
@@ -40,7 +40,7 @@ https://github.com/minaleebtu/webAssignment2/issues
  - "p" MovieRank.html
  - "n" Announcement.html
  - "o" MovieUpcoming.html
--for external links
+for external links
  - "i" Instagram.com
  - "g" GoogleMap.com
  - "w" FaceBook.com
