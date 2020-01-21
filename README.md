@@ -24,11 +24,6 @@
 - trailer (Video+CSS)
 - the site is without Css readable.
 
-
-### Notation 
-our issues are posted on the Repo from the other Gruppe. 
-https://github.com/minaleebtu/webAssignment2/issues
-
 ### shortCuts
 for Pages 
  - "h" index.html 
@@ -40,7 +35,12 @@ for Pages
  - "p" MovieRank.html
  - "n" Announcement.html
  - "o" MovieUpcoming.html
+ 
 for external links
  - "i" Instagram.com
  - "g" GoogleMap.com
  - "w" FaceBook.com
+
+### Notation 
+our issues are posted on the Repo from the other Gruppe. 
+https://github.com/minaleebtu/webAssignment2/issues
