@@ -117,7 +117,7 @@ function fillInformation2(file) {
                 list.appendChild(next);
 
                 var next = document.createElement("li");
-                next.innerHTML = "<strong><a href='MovieNow.html'> In Theatres </a></strong>";
+                next.innerHTML = "<strong><a href='MovieNow.html'> Movies </a></strong>";
                 list.appendChild(next);
                 
                 if (last == "Our Recommendations") {
@@ -126,7 +126,7 @@ function fillInformation2(file) {
                     list.appendChild(next);
 
                     var next = document.createElement("li");
-                    next.innerHTML = "<strong><a href='MovieRecommend.html'> Our Recommondations </a></strong>";
+                    next.innerHTML = "<strong><a href='MovieRecommend.html'> Our Recommendations </a></strong>";
                     list.appendChild(next);
                     
                     var next = document.createElement("li");
@@ -154,13 +154,40 @@ function fillInformation2(file) {
                         next.innerHTML = "<strong> " + movieTitle + " </strong>";
                         list.appendChild(next);
                     } else {
-                        var next = document.createElement("li");
-                        next.innerHTML = "&#8674;";
-                        list.appendChild(next);
+                        if (last == "In Theatres") {
+                            var next = document.createElement("li");
+                            next.innerHTML = "&#8674;";
+                            list.appendChild(next);
 
-                        var next = document.createElement("li");
-                        next.innerHTML = "<strong> " + movieTitle + " </strong>";
-                        list.appendChild(next);
+                            var next = document.createElement("li");
+                            next.innerHTML = "<strong><a href='MovieNow.html'> In Theatres </a></strong>";
+                            list.appendChild(next);
+
+                            var next = document.createElement("li");
+                            next.innerHTML = "&#8674;";
+                            list.appendChild(next);
+
+                            var next = document.createElement("li");
+                            next.innerHTML = "<strong> " + movieTitle + " </strong>";
+                            list.appendChild(next);
+                        } else {
+                            if (last == "Ranked")
+                            var next = document.createElement("li");
+                            next.innerHTML = "&#8674;";
+                            list.appendChild(next);
+
+                            var next = document.createElement("li");
+                            next.innerHTML = "<strong><a href='MovieNow.html'> Most popular Movies </a></strong>";
+                            list.appendChild(next);
+
+                            var next = document.createElement("li");
+                            next.innerHTML = "&#8674;";
+                            list.appendChild(next);
+
+                            var next = document.createElement("li");
+                            next.innerHTML = "<strong> " + movieTitle + " </strong>";
+                            list.appendChild(next);
+                        }
                     }
                 }
 

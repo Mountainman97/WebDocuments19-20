@@ -48,7 +48,7 @@ function fillInformation2(file) {
         var a = document.createElement("a");
         a.setAttribute("href", "MovieInfo.html");
         a.setAttribute("data-id", movieTitle);
-        a.setAttribute("onclick", "saveMovie(this.getAttribute('data-id'))")
+        a.setAttribute("onclick", "saveMovie(this.getAttribute('data-id'), 'Ranked')")
         a.innerHTML = '<img class="movie" src="' + movieURL + '" alt="' + movieTitle + '" height="auto" width="300"/>';
 
         var des = document.createElement("div");
@@ -81,7 +81,7 @@ function fillInformation2(file) {
         var a = document.createElement("a");
         a.setAttribute("href", "MovieInfo.html");
         a.setAttribute("data-id", movieTitle);
-        a.setAttribute("onclick", "saveMovie(this.getAttribute('data-id'))")
+        a.setAttribute("onclick", "saveMovie(this.getAttribute('data-id'), 'Ranked')")
         a.innerHTML = '<img class="movie" src="' + movieURL + '" alt="' + movieTitle + '" height="auto" width="300" />';
 
         var des = document.createElement("div");
@@ -97,7 +97,9 @@ function fillInformation2(file) {
     }
 };
 
-function saveMovie(movie) {
+function saveMovie(movie, title) {
     // passing the clicked id to next page
     sessionStorage.setItem('movieID', movie);
+    sessionStorage.setItem('lastVisited', title)
+
 }
