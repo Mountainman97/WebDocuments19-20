@@ -41,6 +41,10 @@ for external links
  - "g" GoogleMap.com
  - "w" FaceBook.com
 
+
+![Alt text](https://vipballoons.co.uk/wp-content/uploads/2015/08/black-monochromatic.png "Monochromatic Color Palett")
 ### Notation 
 our issues are posted on the Repo from the other Gruppe. 
 https://github.com/minaleebtu/webAssignment2/issues
+
+
