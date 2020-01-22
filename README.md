@@ -23,6 +23,7 @@
 - Orange panner under the nav bar
 - trailer (Video+CSS)
 - the site is without Css readable.
+- monochromatic Stylesheet
 
 ### shortCuts
 for Pages 
