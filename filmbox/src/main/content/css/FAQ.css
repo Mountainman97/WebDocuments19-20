@@ -31,11 +31,6 @@
     font-weight: bold;
 }
 
-.frage:hover {
-    background-color: rgb(66, 64, 64);
-    color: #ff8868;
-}
-
 .FAQcontainer {
     min-height: 62vh;
     font-size: large;

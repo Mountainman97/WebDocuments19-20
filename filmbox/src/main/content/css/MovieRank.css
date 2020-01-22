@@ -16,7 +16,6 @@
     box-shadow: 6px 5px 10px #555;
 }
 
-
 .ranked {
     display: flex;
     flex-direction: row;
@@ -45,7 +44,6 @@
 #categorie h1 {
     text-align: center;
     margin-bottom: 3%;
-    color: #ff8868;
     text-shadow: 2px 2px 1px #222;
 }
 

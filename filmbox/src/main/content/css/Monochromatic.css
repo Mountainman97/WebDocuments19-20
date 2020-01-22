@@ -22,6 +22,7 @@
     }
     .columnTwo h1 {
         color: black;
+        text-shadow: none;
     }
     .outNow a {
         color: black;
@@ -30,5 +31,39 @@
     .movie:hover {
         box-shadow: 5px 5px 10px white;
     }
-    nav li a
+    a {
+        color: rgb(195, 195, 195);
+    }
+    .inTheatres h1 {
+        color: black;
+        text-shadow: none;
+    }
+    #box a {
+        color: rgb(195, 195, 195);
+    }
+    #box a:hover,
+    #box:hover {
+        background: #222;
+        color: rgb(195, 195, 195);
+    }
+    .AboutUStitle {
+        color: black;
+        text-shadow: none;
+    }
+    #categorie h1 {
+        color: black;
+        text-shadow: none;
+    }
+    #overhead {
+        color: black;
+        text-shadow: none;
+    }
+    .banner h1 {
+        color: black;
+        text-shadow: none;
+    }
+    .frage:hover {
+        background-color: rgb(66, 64, 64);
+        color: rgb(195, 195, 195);
+    }
 }

@@ -26,12 +26,6 @@ main {
     text-shadow: 2px 2px 1px #222;
 }
 
-#box a:hover,
-#box:hover {
-    color: #ff8868;
-    background: #222;
-}
-
 .movie {
     display: block;
     width: 200px;

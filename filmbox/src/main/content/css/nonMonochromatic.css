@@ -1,0 +1,55 @@
+@media (monochrome: 0) {
+    #OrangePanner {
+        background-color: #ff8868;
+        color: #333;
+    }
+    #owner {
+        color: #ff8868;
+    }
+    .dropdown-content {
+        background-color: #f9f9f9;
+        background: #333;
+        color: white;
+    }
+    nav li .active {
+        background-color: #ff8868;
+        color: #222;
+    }
+    nav li a:hover:not(.active) {
+        background-color: #222;
+    }
+    nav li a {
+        color: #ff8868;
+    }
+    .breadcrumb {
+        background-color: #ff8868;
+        color: #222;
+    }
+    .inTheatres h1 {
+        color: #ff8868;
+    }
+    #box a {
+        color: #ff8868;
+    }
+    #box a:hover,
+    #box:hover {
+        color: #ff8868;
+        background: #222;
+    }
+    .AboutUStitle {
+        color: #ff8868;
+    }
+    #categorie h1 {
+        color: #ff8868;
+    }
+    #overhead {
+        color: #ff8868;
+    }
+    .banner h1 {
+        color: #ff8868;
+    }
+    .frage:hover {
+        background-color: rgb(66, 64, 64);
+        color: #ff8868;
+    }
+}
