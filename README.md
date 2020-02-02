@@ -12,6 +12,10 @@
 - Anouncment Page
 - added JavaScript for generating Navigationbar
 - added JavaScript for generating Moviecontent
+- Breadcrumb Navigation
+- alternative texts for non-textual content
+- accesskeys (inside JavaScript)
+- tabindex (inside JavaScript)
 
 ### Badr Aldin Alzein:
 - Header | Footer | Navigation  
@@ -29,12 +33,12 @@
 for Pages 
  - "h" index.html 
  - "a" AboutUS.html 
- - "c" ContactUs.html
+ - "n" ContactUs.html
  - "f" FAQ.html
  - "m" MovieNow.html
  - "s" MovieRecommend.html  
  - "p" MovieRank.html
- - "n" Announcement.html
+ - "c" Announcement.html
  - "o" MovieUpcoming.html
  
 for external links
